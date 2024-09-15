@@ -10,6 +10,7 @@ import {
 } from "react-icons/ai";
 import { motion, AnimatePresence } from "framer-motion";
 import { ModeToggle } from "./theme";
+import Link from "next/link";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -18,12 +19,12 @@ const Navbar = () => {
     setIsOpen(!isOpen);
   };
 
-  const menuItems = [
-    { name: "Home", icon: <AiOutlineHome /> },
-    { name: "About", icon: <AiOutlineInfoCircle /> },
-    { name: "Blog", icon: <AiOutlineRead /> },
-    { name: "Contact Us", icon: <AiOutlineContacts /> },
-  ];
+  // const menuItems = [
+  //   { name: "Home", icon: <AiOutlineHome /> },
+  //   { name: "About", icon: <AiOutlineInfoCircle /> },
+  //   { name: "Blog", icon: <AiOutlineRead /> },
+  //   { name: "Contact Us", icon: <AiOutlineContacts /> },
+  // ];
 
   const menuVariants = {
     hidden: { opacity: 0, y: -20 },
@@ -31,7 +32,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="dark:bg-black bg-white text-blue-700 dark:text-white">
+    <nav className="dark:bg-black bg-white  dark:text-white  text-rose-600  shadow-2xl ">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
@@ -41,7 +42,7 @@ const Navbar = () => {
           </div>
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-4">
-              {menuItems.map((item) => (
+              {/* {menuItems.map((item) => (
                 <a
                   key={item.name}
                   href={`#${item.name.toLowerCase()}`}
@@ -50,7 +51,9 @@ const Navbar = () => {
                 >
                   {item.name}
                 </a>
-              ))}
+              ))} */}
+              <Link href="/">Home</Link>
+              <Link href="about">About</Link>
               <ModeToggle />
             </div>
           </div>
@@ -76,7 +79,7 @@ const Navbar = () => {
             transition={{ duration: 0.3 }}
           >
             <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-              {menuItems.map((item) => (
+              {/* {menuItems.map((item) => (
                 <a
                   key={item.name}
                   href={`#${item.name.toLowerCase()}`}
@@ -88,7 +91,19 @@ const Navbar = () => {
                     <span className="ml-2">{item.name}</span>
                   </span>
                 </a>
-              ))}
+              ))} */}
+              <Link
+                href="/"
+                className="text-white block px-3 py-2 rounded-md text-base font-medium  hover:bg-gray-700 focus:outline-none focus:bg-gray-700 transition duration-150 ease-in-out"
+              >
+                Home
+              </Link>
+              <Link
+                className="text-white block px-3 py-2 rounded-md text-base font-medium  hover:bg-gray-700 focus:outline-none focus:bg-gray-700 transition duration-150 ease-in-out"
+                href="about"
+              >
+                About
+              </Link>
               <ModeToggle />
             </div>
           </motion.div>
