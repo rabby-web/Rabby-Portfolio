@@ -19,6 +19,23 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
+        colors: {
+          "dark-bg-01": "#01B7E9",
+          "dark-bg-02": "#1E293B",
+          "dark-bg-03": "#1E293B",
+          "light-bg-01": "#1E293B",
+          "light-bg-02": "#1E293B",
+          "light-bg-03": "#1E293B",
+          "dark-tt-01": "#1E293B",
+          "dark-tt-02": "#1E293B",
+          "dark-tt-03": "#1E293B",
+          "light-tt-01": "#17FFFB",
+          "light-tt-02": "#1E293B",
+          "light-tt-03": "#1E293B",
+          "tcd-1": "#01B7E9",
+          "tcd-2": "#007EC3",
+          "tcd-3": "#17FFFB",
+        },
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         card: {
