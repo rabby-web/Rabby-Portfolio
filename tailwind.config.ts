@@ -20,6 +20,7 @@ const config: Config = {
     extend: {
       colors: {
         "dark-bg-01": "#1E2126",
+        "dark-bg-08": "#13161a",
         "dark-bg-02": "#1E293B",
         "dark-bg-03": "#1E293B",
         "light-bg-01": "#1E293B",
