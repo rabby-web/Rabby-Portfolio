@@ -1,7 +1,9 @@
+import AboutPage from "@/src/components/shared/AboutPage";
+
 const About = () => {
   return (
     <div>
-      <h2>This is abut</h2>
+      <AboutPage></AboutPage>
     </div>
   );
 };
