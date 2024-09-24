@@ -77,7 +77,7 @@ const Navbar = () => {
                 About
               </Link>
               <Link
-                href="about"
+                href="contact"
                 className={`link ${
                   pathname === "/contact"
                     ? "dark:text-rose-700 text-blue-600"
@@ -138,6 +138,16 @@ const Navbar = () => {
                 href="about"
                 className={`link ${
                   pathname === "/about"
+                    ? "dark:text-rose-700 text-blue-700 block px-3 py-2 rounded-md text-base font-medium  dark:hover:bg-gray-900 focus:outline-none dark:focus:bg-gray-700 hover:bg-gray-100  focus:bg-gray-200 transition duration-150 ease-in-out "
+                    : "dark:text-white text-black block px-3 py-2 rounded-md text-base font-medium  dark:hover:bg-gray-900 focus:outline-none dark:focus:bg-gray-700 hover:bg-gray-100  focus:bg-gray-200 transition duration-150 ease-in-out "
+                }`}
+              >
+                About
+              </Link>
+              <Link
+                href="contact"
+                className={`link ${
+                  pathname === "/contact"
                     ? "dark:text-rose-700 text-blue-700 block px-3 py-2 rounded-md text-base font-medium  dark:hover:bg-gray-900 focus:outline-none dark:focus:bg-gray-700 hover:bg-gray-100  focus:bg-gray-200 transition duration-150 ease-in-out "
                     : "dark:text-white text-black block px-3 py-2 rounded-md text-base font-medium  dark:hover:bg-gray-900 focus:outline-none dark:focus:bg-gray-700 hover:bg-gray-100  focus:bg-gray-200 transition duration-150 ease-in-out "
                 }`}
