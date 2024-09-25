@@ -38,6 +38,7 @@ export default function RootLayout({
           <Navbar></Navbar>
           <div className="min-h-screen">{children}</div>
           <Footer></Footer>
+          <div className="fixed left-0 bottom-0">rabby</div>
         </ThemeProvider>
       </body>
     </html>

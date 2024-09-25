@@ -1,14 +1,15 @@
 "use client";
 import { useState } from "react";
-import Banner from "./Banner";
+// import Banner from "./Banner";
+import AllIcons from "./AllIcons";
 
 const Tabs = () => {
   const [activeTab, setActiveTab] = useState(0);
 
   const tabs = [
-    { id: 0, title: "Home", content: "Welcome to the Home tab." },
-    { id: 1, title: "Profile", content: "Here is your Profile info." },
-    { id: 2, title: "Settings", content: <Banner></Banner> },
+    { id: 0, title: "All", content: <AllIcons /> },
+    { id: 1, title: "Frontend", content: "Here is your Profile info." },
+    { id: 2, title: "Backend", content: <AllIcons /> },
     {
       id: 3,
       title: "Tools",
