@@ -6,8 +6,8 @@ export default function Home() {
   return (
     <div className="">
       <Banner></Banner>
-      <Contact></Contact>
       <AboutPage></AboutPage>
+      <Contact></Contact>
     </div>
   );
 }
