@@ -1,49 +1,22 @@
-const AllIcons = () => {
-  const icons = [
-    {
-      id: 1,
-      title: "Introduction to JavaScript",
-      image: "image1.jpg",
-      name: "John Doe",
-      category: "Programming",
-    },
-    {
-      id: 2,
-      title: "Mastering Python",
-      image: "image2.jpg",
-      name: "Jane Smith",
-      category: "Programming",
-    },
-    {
-      id: 3,
-      title: "Learning Web Development",
-      image: "image3.jpg",
-      name: "Mike Johnson",
-      category: "Web Development",
-    },
-    {
-      id: 4,
-      title: "Graph Algorithms",
-      image: "image4.jpg",
-      name: "Emily Davis",
-      category: "Algorithms",
-    },
-    {
-      id: 5,
-      title: "Advanced CSS Techniques",
-      image: "image5.jpg",
-      name: "Chris Brown",
-      category: "Web Design",
-    },
-  ];
+import Image from "next/image";
+import { icons } from "./data/proficiencyData";
 
+const AllIcons = () => {
   return (
     <div>
-      {icons.map((icon) => (
-        <div key={icon.id}>
-          <h2>{icon.title}</h2>
-        </div>
-      ))}
+      <div className="grid grid-cols-3  md:grid-cols-4 lg:grid-cols-6 gap-2 ">
+        {icons?.map((icon) => (
+          <div key={icon.id} className="w-full p-4 border rounded-xl">
+            <Image
+              src={icon.image}
+              width={30}
+              height={30}
+              alt={icon.name}
+            ></Image>
+            <h2>{icon.title}</h2>
+          </div>
+        ))}
+      </div>
     </div>
   );
 };

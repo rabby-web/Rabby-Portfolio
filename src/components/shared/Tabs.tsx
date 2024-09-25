@@ -39,7 +39,7 @@ const Tabs = () => {
 
       {/* Tab Content */}
       <div className="mt-6">
-        <p>{tabs[activeTab].content}</p>
+        <div>{tabs[activeTab].content}</div>
       </div>
     </div>
   );
