@@ -1,6 +1,6 @@
 const AboutPage = () => {
   return (
-    <div className="max-w-7xl mx-auto py-10 md:h-[56rem] h-[44rem] ">
+    <div className="max-w-7xl mx-auto py-10 md:h-[56rem] ">
       {/* about section */}
       <div>
         <div className="flex-1">
