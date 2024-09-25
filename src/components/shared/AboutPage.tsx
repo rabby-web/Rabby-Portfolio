@@ -43,7 +43,7 @@ const AboutPage = () => {
 
       {/* card */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-10">
-        <div className="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-900 dark:border-gray-800">
+        <div className="max-w-full m-3 p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-900 dark:border-gray-800">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="currentColor"
@@ -84,7 +84,7 @@ const AboutPage = () => {
             </svg>
           </a>
         </div>
-        <div className="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-900 dark:border-gray-800">
+        <div className="max-w-full m-3 p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-900 dark:border-gray-800">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="currentColor"
@@ -125,7 +125,7 @@ const AboutPage = () => {
             </svg>
           </a>
         </div>
-        <div className="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-900 dark:border-gray-800">
+        <div className="max-w-full m-3 p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-900 dark:border-gray-800">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="16"
