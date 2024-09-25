@@ -1,20 +1,48 @@
 const AboutPage = () => {
   return (
-    <div className="max-w-7xl mx-auto py-10">
+    <div className="max-w-7xl mx-auto py-10 md:h-[56rem] h-[44rem] ">
       {/* about section */}
       <div>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum
-          consectetur cumque harum deleniti cupiditate exercitationem atque vel
-          eaque officia quisquam perspiciatis ipsam tempore alias, nulla
-          asperiores saepe tenetur corporis ad suscipit natus obcaecati ullam
-          quas doloribus quae! Eos officia libero vel minima quisquam sapiente
-          pariatur laudantium, voluptatibus laboriosam, error suscipit!
-        </p>
+        <div className="flex-1">
+          <h2 className="text-2xl font-semibold text-dark-01 dark:text-dark-03 flex items-center gap-3">
+            About Me
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              fill="currentColor"
+              className="bi bi-highlighter"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M11.096.644a2 2 0 0 1 2.791.036l1.433 1.433a2 2 0 0 1 .035 2.791l-.413.435-8.07 8.995a.5.5 0 0 1-.372.166h-3a.5.5 0 0 1-.234-.058l-.412.412A.5.5 0 0 1 2.5 15h-2a.5.5 0 0 1-.354-.854l1.412-1.412A.5.5 0 0 1 1.5 12.5v-3a.5.5 0 0 1 .166-.372l8.995-8.07zm-.115 1.47L2.727 9.52l3.753 3.753 7.406-8.254zm3.585 2.17.064-.068a1 1 0 0 0-.017-1.396L13.18 1.387a1 1 0 0 0-1.396-.018l-.068.065zM5.293 13.5 2.5 10.707v1.586L3.707 13.5z"
+              />
+            </svg>
+          </h2>
+          <p className="sm:text-base md:text-lg font-medium max-w-5xl mx-auto text-center md:text-left p-3 text-dark-01 dark:text-white">
+            <span className="font-semibold">Hi, I am Zulkar Naeem Rabby.</span>
+            <br />
+            <br />
+            I am a highly motivated and self-taught MERN Stack Developer with a
+            passion for crafting dynamic and intuitive web applications.
+            Specializing in frontend development using React.js and backend
+            development with Node.js and Express.js, I bring a wealth of
+            knowledge and hands-on experience to create seamless and engaging
+            user experiences. <br />
+            <br /> I am a passionate Web developer love for clean and efficient
+            code. With a strong foundation in various programming frameworks, I
+            am always eager to expand my knowledge and explore new technologies.
+            With a keen eye for detail and a dedication to delivering
+            high-quality Web solutions, I am driven to make a positive impact in
+            the world of technology. Connect with me on GitHub to see my
+            activity.
+          </p>
+        </div>
       </div>
 
       {/* card */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-10">
         <div className="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-900 dark:border-gray-800">
           <svg
             xmlns="http://www.w3.org/2000/svg"
