@@ -1,10 +1,9 @@
 import Image from "next/image";
-import { icons } from "./data/proficiencyData";
+import { icons } from "../data/proficiencyData";
 import { FaAngleRight } from "react-icons/fa";
-// import { icons } from "lucide-react";
 
-const FrontendIcon = () => {
-  const frontendIcon = icons.filter((icon) => icon.category === "frontend");
+const ToolsIcon = () => {
+  const frontendIcon = icons.filter((icon) => icon.category === "tools");
   return (
     <div>
       <div className="grid grid-cols-3  md:grid-cols-4 lg:grid-cols-6 gap-3 ">
@@ -40,4 +39,4 @@ const FrontendIcon = () => {
   );
 };
 
-export default FrontendIcon;
+export default ToolsIcon;

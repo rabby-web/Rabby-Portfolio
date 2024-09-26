@@ -1,5 +1,5 @@
 import React from "react";
-import Tabs from "./Tabs";
+import Tabs from "./icon/Tabs";
 // import Tabs from "./Tabs";
 
 const SkillPage = () => {

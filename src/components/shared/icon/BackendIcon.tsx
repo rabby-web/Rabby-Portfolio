@@ -1,12 +1,13 @@
 import Image from "next/image";
-import { icons } from "./data/proficiencyData";
+import { icons } from "../data/proficiencyData";
 import { FaAngleRight } from "react-icons/fa";
 
-const AllIcons = () => {
+const BackendIcon = () => {
+  const frontendIcon = icons.filter((icon) => icon.category === "backend");
   return (
     <div>
       <div className="grid grid-cols-3  md:grid-cols-4 lg:grid-cols-6 gap-3 ">
-        {icons?.map((icon) => (
+        {frontendIcon?.map((icon) => (
           <div
             key={icon.id}
             className="w-full p-6 border rounded-xl text-center flex flex-col justify-center items-center relative group"
@@ -38,4 +39,4 @@ const AllIcons = () => {
   );
 };
 
-export default AllIcons;
+export default BackendIcon;

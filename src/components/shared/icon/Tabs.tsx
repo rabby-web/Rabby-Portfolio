@@ -1,6 +1,5 @@
 "use client";
 import { useState } from "react";
-// import Banner from "./Banner";
 import AllIcons from "./AllIcons";
 import FrontendIcon from "./FrontendIcon";
 import BackendIcon from "./BackendIcon";
