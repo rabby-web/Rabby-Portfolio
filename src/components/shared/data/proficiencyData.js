@@ -25,6 +25,14 @@ import jwtIcon from "../../../assets/icon/Jwt.svg";
 import awsIcon from "../../../assets/icon/AWS.svg";
 import dockerIcon from "../../../assets/icon/Docker.svg";
 // tools
+import vsCodeIcon from "../../../assets/icon/VSCode.svg";
+import gitIcon from "../../../assets/icon/Git.svg";
+import gitHubIcon from "../../../assets/icon/icons8-github (1).svg";
+import postmanIcon from "../../../assets/icon/Postman.svg";
+import swaggerIcon from "../../../assets/icon/Swagger.svg";
+import gitBookIcon from "../../../assets/icon/GitBook.svg";
+import vercelIcon from "../../../assets/icon/Vercel.svg";
+import linuxIcon from "../../../assets/icon/Linux.svg";
 
 export const icons = [
   {
@@ -207,8 +215,57 @@ export const icons = [
   {
     id: 26,
     title: "Code Editor",
-    image: dockerIcon,
+    image: vsCodeIcon,
     name: "VS Code",
+    category: "tools",
+  },
+  {
+    id: 27,
+    title: "Version Control System",
+    image: gitIcon,
+    name: "Git",
+    category: "tools",
+  },
+  {
+    id: 26,
+    title: "Collaborative Development Platform",
+    image: gitHubIcon,
+    name: "GitHub",
+    category: "tools",
+  },
+  {
+    id: 27,
+    title: "API Development Platform",
+    image: postmanIcon,
+    name: "Postman",
+    category: "tools",
+  },
+  {
+    id: 28,
+    title: "API Documentation Tool",
+    image: swaggerIcon,
+    name: "Swagger",
+    category: "tools",
+  },
+  {
+    id: 29,
+    title: "Documentation Generator",
+    image: gitBookIcon,
+    name: "GitBook",
+    category: "tools",
+  },
+  {
+    id: 30,
+    title: "Deployment Platform",
+    image: vercelIcon,
+    name: "Vercel",
+    category: "tools",
+  },
+  {
+    id: 31,
+    title: "Open Source OS",
+    image: linuxIcon,
+    name: "Linux",
     category: "tools",
   },
 ];
