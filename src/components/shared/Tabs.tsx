@@ -2,14 +2,16 @@
 import { useState } from "react";
 // import Banner from "./Banner";
 import AllIcons from "./AllIcons";
+import FrontendIcon from "./FrontendIcon";
+import BackendIcon from "./BackendIcon";
 
 const Tabs = () => {
   const [activeTab, setActiveTab] = useState(0);
 
   const tabs = [
     { id: 0, title: "All", content: <AllIcons /> },
-    { id: 1, title: "Frontend", content: "Here is your Profile info." },
-    { id: 2, title: "Backend", content: <AllIcons /> },
+    { id: 1, title: "Frontend", content: <FrontendIcon /> },
+    { id: 2, title: "Backend", content: <BackendIcon /> },
     {
       id: 3,
       title: "Tools",

@@ -112,4 +112,12 @@ export const icons = [
     name: "Framer Motion",
     category: "frontend",
   },
+  // backend
+  {
+    id: 15,
+    title: "Animation Library",
+    image: framerIcon,
+    name: "Framer Motion",
+    category: "backend",
+  },
 ];
