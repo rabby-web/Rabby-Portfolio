@@ -12,6 +12,19 @@ import shadCNIcon from "../../../assets/icon/shadcn.svg";
 import jestIcon from "../../../assets/icon/Jest.svg";
 import firebaseIcon from "../../../assets/icon/Firebase.svg";
 import framerIcon from "../../../assets/icon/framer.svg";
+// backend
+import nodeJSIcon from "../../../assets/icon/Node.js.svg";
+import expressJSIcon from "../../../assets/icon/Express.svg";
+import mongoDBIcon from "../../../assets/icon/MongoDB.svg";
+import postGresQLIcon from "../../../assets/icon/Postgresql.svg";
+import redisIcon from "../../../assets/icon/Redis.svg";
+import mongooseIcon from "../../../assets/icon/Mongoose.svg";
+import prismaIcon from "../../../assets/icon/Prisma.svg";
+import graphQLIcon from "../../../assets/icon/GraphQL.svg";
+import jwtIcon from "../../../assets/icon/Jwt.svg";
+import awsIcon from "../../../assets/icon/AWS.svg";
+import dockerIcon from "../../../assets/icon/Docker.svg";
+// tools
 
 export const icons = [
   {
@@ -115,9 +128,87 @@ export const icons = [
   // backend
   {
     id: 15,
-    title: "Animation Library",
-    image: framerIcon,
-    name: "Framer Motion",
+    title: "Javascript Runtime",
+    image: nodeJSIcon,
+    name: "Node JS",
     category: "backend",
+  },
+  {
+    id: 16,
+    title: "Web Application Framework",
+    image: expressJSIcon,
+    name: "Express JS",
+    category: "backend",
+  },
+  {
+    id: 17,
+    title: "NoSQL Database",
+    image: mongoDBIcon,
+    name: "MongoDB",
+    category: "backend",
+  },
+  {
+    id: 18,
+    title: "SQL Database",
+    image: postGresQLIcon,
+    name: "PostgreSQL",
+    category: "backend",
+  },
+  {
+    id: 19,
+    title: "Data Cache",
+    image: redisIcon,
+    name: "Redis",
+    category: "backend",
+  },
+  {
+    id: 20,
+    title: "ODM Library",
+    image: mongooseIcon,
+    name: "Mongoose",
+    category: "backend",
+  },
+  {
+    id: 21,
+    title: "(ORM) Database Toolkit",
+    image: prismaIcon,
+    name: "Prisma",
+    category: "backend",
+  },
+  {
+    id: 22,
+    title: "Query Language for APIs",
+    image: graphQLIcon,
+    name: "GraphQL",
+    category: "backend",
+  },
+  {
+    id: 23,
+    title: "Authentication Token",
+    image: jwtIcon,
+    name: "JWT",
+    category: "backend",
+  },
+  {
+    id: 24,
+    title: "Cloud Services Platform",
+    image: awsIcon,
+    name: "AWS",
+    category: "backend",
+  },
+  {
+    id: 25,
+    title: "Containerization Platform",
+    image: dockerIcon,
+    name: "Docker",
+    category: "backend",
+  },
+  // tools
+  {
+    id: 26,
+    title: "Code Editor",
+    image: dockerIcon,
+    name: "VS Code",
+    category: "tools",
   },
 ];

@@ -4,6 +4,7 @@ import { useState } from "react";
 import AllIcons from "./AllIcons";
 import FrontendIcon from "./FrontendIcon";
 import BackendIcon from "./BackendIcon";
+import ToolsIcon from "./ToolsIcon";
 
 const Tabs = () => {
   const [activeTab, setActiveTab] = useState(0);
@@ -12,12 +13,7 @@ const Tabs = () => {
     { id: 0, title: "All", content: <AllIcons /> },
     { id: 1, title: "Frontend", content: <FrontendIcon /> },
     { id: 2, title: "Backend", content: <BackendIcon /> },
-    {
-      id: 3,
-      title: "Tools",
-      content:
-        "Adjust your Settings here. Adjust your Settings here. Adjust your Settings here. Adjust your Settings here.",
-    },
+    { id: 3, title: "Tools", content: <ToolsIcon /> },
   ];
 
   return (
