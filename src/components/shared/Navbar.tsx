@@ -77,6 +77,16 @@ const Navbar = () => {
                 About
               </Link>
               <Link
+                href="project"
+                className={`link ${
+                  pathname === "/project"
+                    ? "dark:text-rose-700 text-blue-600"
+                    : "dark:text-white text-black"
+                }`}
+              >
+                Project
+              </Link>
+              <Link
                 href="skill"
                 className={`link ${
                   pathname === "/skill"
@@ -153,6 +163,16 @@ const Navbar = () => {
                 }`}
               >
                 About
+              </Link>
+              <Link
+                href="project"
+                className={`link ${
+                  pathname === "/project"
+                    ? "dark:text-rose-700 text-blue-700 block px-3 py-2 rounded-md text-base font-medium  dark:hover:bg-gray-900 focus:outline-none dark:focus:bg-gray-700 hover:bg-gray-100  focus:bg-gray-200 transition duration-150 ease-in-out "
+                    : "dark:text-white text-black block px-3 py-2 rounded-md text-base font-medium  dark:hover:bg-gray-900 focus:outline-none dark:focus:bg-gray-700 hover:bg-gray-100  focus:bg-gray-200 transition duration-150 ease-in-out "
+                }`}
+              >
+                Project
               </Link>
               <Link
                 href="skill"

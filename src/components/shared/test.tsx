@@ -1,55 +1,65 @@
-import React, { useState } from "react";
-export const Test = () => {
-  const [isModalOpen, setIsModalOpen] = useState(false);
+import React from "react";
 
-  const openModal = () => setIsModalOpen(true);
-  const closeModal = () => setIsModalOpen(false);
+const timelineData = [
+  {
+    title: "Event 1",
+    date: "January 2023",
+    description: "Description of the first event.",
+  },
+  {
+    title: "Event 2",
+    date: "March 2023",
+    description: "Description of the second event.",
+  },
+  {
+    title: "Event 3",
+    date: "July 2023",
+    description: "Description of the third event.",
+  },
+  {
+    title: "Event 4",
+    date: "September 2023",
+    description: "Description of the fourth event.",
+  },
+];
 
+const Timeline = () => {
   return (
-    <div className="h-72 w-52 flex items-center justify-center bg-gray-100">
-      <button
-        onClick={openModal}
-        className="bg-blue-500 text-white py-2 px-4 rounded-lg hover:bg-blue-600 transition duration-200"
-      >
-        Open Modal
-      </button>
+    <div className="container mx-auto px-4 py-12">
+      <h1 className="text-3xl font-bold text-center mb-10">Timeline</h1>
+      <div className="relative">
+        {/* Vertical line in the center */}
+        <div className="absolute w-1 left-1/2 transform -translate-x-1/2 h-full bg-gray-300 hidden md:block"></div>
 
-      {isModalOpen && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50">
-          <div className="bg-white rounded-lg shadow-lg w-full max-w-lg p-6 relative">
-            <button
-              onClick={closeModal}
-              className="absolute top-2 right-2 text-gray-400 hover:text-gray-600 focus:outline-none"
+        {timelineData.map((event, index) => (
+          <div
+            key={index}
+            className={`mb-10 flex flex-col md:flex-row items-start ${
+              index % 2 === 0 ? "md:flex-row-reverse" : ""
+            }`}
+          >
+            {/* Event marker */}
+            <div className="absolute w-6 h-6 bg-blue-500 rounded-full left-1/2 transform -translate-x-1/2 md:translate-x-0 md:left-auto md:right-auto"></div>
+
+            {/* Left or Right Block based on index */}
+            <div
+              className={`md:w-5/12 md:${
+                index % 2 === 0 ? "pl-8" : "pr-8"
+              } text-left md:text-${index % 2 === 0 ? "left" : "right"}`}
             >
-              <svg
-                className="w-6 h-6"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M6 18L18 6M6 6l12 12"
-                />
-              </svg>
-            </button>
-            <h2 className="text-xl font-semibold mb-4">Modal Card Title</h2>
-            <p className="text-gray-700">
-              This is the content inside the modal card. You can add any custom
-              content here, such as text, forms, or other components.
-            </p>
-            <button
-              onClick={closeModal}
-              className="mt-6 w-full bg-blue-500 text-white py-2 rounded-lg hover:bg-blue-600 transition duration-200"
-            >
-              Close Modal
-            </button>
+              <h3 className="text-lg font-semibold">{event.title}</h3>
+              <span className="block text-sm text-gray-500">{event.date}</span>
+            </div>
+
+            {/* Description (single column on mobile) */}
+            <div className="md:w-5/12 mt-4 md:mt-0">
+              <p className="text-gray-700">{event.description}</p>
+            </div>
           </div>
-        </div>
-      )}
+        ))}
+      </div>
     </div>
   );
 };
+
+export default Timeline;
