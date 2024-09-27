@@ -7,27 +7,15 @@ import { FaGithub, FaLinkedin, FaFacebook } from "react-icons/fa";
 const ContactPage = () => {
   return (
     <div className="">
-      <div className="md:h-[56rem] h-[62rem] w-full dark:bg-[#13161A] bg-white  dark:bg-dot-white/[0.1] bg-dot-black/[0.1] ">
+      <div className="md:h-[61rem] h-[62rem] w-full dark:bg-[#0B1120] bg-white  dark:bg-dot-white/[0.1] bg-dot-black/[0.1] ">
         {/* Radial gradient for the container to give a faded look */}
         <div className=" pointer-events-none inset-0 flex items-center justify-center dark:bg-black bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
         <div className="max-w-7xl mx-auto ">
           <div className="md:px-5 px-2">
-            <h2 className="text-2xl font-semibold text-dark-01 dark:text-dark-03 flex items-center gap-3 mt-10 md:mt-24">
-              Contact With Me
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                fill="currentColor"
-                className="bi bi-highlighter"
-                viewBox="0 0 16 16"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M11.096.644a2 2 0 0 1 2.791.036l1.433 1.433a2 2 0 0 1 .035 2.791l-.413.435-8.07 8.995a.5.5 0 0 1-.372.166h-3a.5.5 0 0 1-.234-.058l-.412.412A.5.5 0 0 1 2.5 15h-2a.5.5 0 0 1-.354-.854l1.412-1.412A.5.5 0 0 1 1.5 12.5v-3a.5.5 0 0 1 .166-.372l8.995-8.07zm-.115 1.47L2.727 9.52l3.753 3.753 7.406-8.254zm3.585 2.17.064-.068a1 1 0 0 0-.017-1.396L13.18 1.387a1 1 0 0 0-1.396-.018l-.068.065zM5.293 13.5 2.5 10.707v1.586L3.707 13.5z"
-                />
-              </svg>
-            </h2>
+            <div className="text-2xl font-semibold text-dark-01 dark:text-dark-03 flex items-baseline gap-1 p-3 md:mt-12">
+              <div className="text-[#3CD1B8]">Contact</div>
+              <div className="w-48 border border-[#3CD1B8]"></div>
+            </div>
             <div className="max-w-7xl mx-auto p-10 my-20 flex flex-col-reverse md:flex-row gap-6 items-center shadow-md rounded-xl border border-gray-200">
               <div
                 data-aos="fade-up"

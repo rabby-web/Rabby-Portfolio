@@ -40,13 +40,24 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <div className="flex-shrink-0">
-              <div className="rounded-full border text-black dark:text-[#46EBC2] border-black dark:border-[#46EBC2] hover:border-blue-700 hover:dark:border-rose-700  p-3">
-                <Image
-                  src="https://i.ibb.co.com/n6vhKpG/IMG-20240609-WA0000-1.jpg"
-                  width={30}
-                  height={30}
-                  alt="."
-                ></Image>
+              <div className=" text-black dark:text-[#46EBC2]   ">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="50"
+                  height="50"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  className="icon icon-tabler icons-tabler-outline icon-tabler-registered"
+                >
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                  <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+                  <path d="M10 15v-6h2a2 2 0 1 1 0 4h-2" />
+                  <path d="M14 15l-2 -2" />
+                </svg>
               </div>
             </div>
           </div>

@@ -2,11 +2,11 @@ import AboutCard from "./AboutCard";
 
 const AboutPage = () => {
   return (
-    <div className="max-w-7xl mx-auto py-10 lg:h-[56rem] md:h-[64rem] dark:bg-[#0E1628]">
+    <div className="max-w-7xl mx-auto py-10 lg:h-[61rem] md:h-[64rem] dark:bg-[#0E1628]">
       {/* about section */}
       <div>
         <div className="flex-1">
-          <div className="text-2xl font-semibold text-dark-01 dark:text-dark-03 flex items-baseline gap-1 p-3">
+          <div className="text-2xl font-semibold text-dark-01 dark:text-dark-03 flex items-baseline gap-1 p-3 md:mt-12">
             <div className="text-[#3CD1B8]">About Me</div>
             <div className="w-48 border border-[#3CD1B8]"></div>
           </div>

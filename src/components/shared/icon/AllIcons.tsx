@@ -5,19 +5,21 @@ import { FaAngleRight } from "react-icons/fa";
 const AllIcons = () => {
   return (
     <div>
-      <div className="grid grid-cols-3  md:grid-cols-4 lg:grid-cols-6 gap-3 ">
+      <div className="grid grid-cols-3  md:grid-cols-4 lg:grid-cols-6 gap-2 p-1">
         {icons?.map((icon) => (
           <div
             key={icon.id}
-            className="w-full p-6 border rounded-xl text-center flex flex-col justify-center items-center relative group"
+            className="w-full p-2 md:p-4 border rounded-xl text-center flex flex-col justify-center items-center relative group hover:text-rose-600 text-[#3CD1B8]"
           >
             <Image
               src={icon.image}
-              width={45}
-              height={45}
+              width={40}
+              height={40}
               alt={icon.name}
             ></Image>
-            <h2 className="text-lg pt-3">{icon.name}</h2>
+            <h2 className="text-lg pt-3 text-[#3CD1B8] hover:text-rose-600">
+              {icon.name}
+            </h2>
             <p className="hidden absolute top-full -mt-72 text-base text-blue-700 group-hover:block bg-white p-3 border  rounded-xl">
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500">
                 {icon.title}

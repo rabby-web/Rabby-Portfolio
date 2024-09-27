@@ -12,7 +12,7 @@ export default function Home() {
       <div className="dark:bg-[#0E1628]">
         <AboutPage></AboutPage>
       </div>
-      <div className="dark:bg-dark-bg-08">
+      <div className="dark:bg-[#0E1628]">
         <ProjectPage></ProjectPage>
       </div>
       <SkillPage></SkillPage>

@@ -19,7 +19,7 @@ const FrontendIcon = () => {
               height={45}
               alt={icon.name}
             ></Image>
-            <h2 className="text-lg pt-3">{icon.name}</h2>
+            <h2 className="text-lg pt-3 text-[#3CD1B8] hover:text-rose-600">{icon.name}</h2>
             <p className="hidden absolute top-full -mt-72 text-base text-blue-700 group-hover:block bg-white p-3 border  rounded-xl">
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500">
                 {icon.title}
