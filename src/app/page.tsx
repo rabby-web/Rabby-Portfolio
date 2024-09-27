@@ -1,5 +1,5 @@
+import Banner from "../components/Banner/Banner";
 import AboutPage from "../components/shared/AboutPage";
-import Banner from "../components/shared/Banner";
 import ProjectPage from "../components/shared/projectPage/ProjectPage";
 import SkillPage from "../components/shared/SkillPage";
 import Contact from "./contact/page";
