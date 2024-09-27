@@ -1,111 +1,55 @@
-import { FaPaperPlane } from "react-icons/fa";
-import { FaWhatsapp } from "react-icons/fa";
-import { MdEmail } from "react-icons/md";
-import { FaGithub, FaLinkedin, FaFacebook } from "react-icons/fa";
+import React, { useState } from "react";
+export const Test = () => {
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
-const Contract = () => {
+  const openModal = () => setIsModalOpen(true);
+  const closeModal = () => setIsModalOpen(false);
+
   return (
-    <div>
-      <div className="px-5">
-        <div className="max-w-7xl mx-auto p-10 my-20 flex flex-col-reverse md:flex-row gap-6 items-center shadow-md rounded-lg border border-gray-200">
-          <div data-aos="fade-up" data-aos-duration="1500" className="md:w-1/2">
-            <h2 className="text-dark-01 dark:text-white font-semibold text-3xl md:text-4xl mb-2">
-              Subscribe now
-            </h2>
-            <div className="w-20 h-1.5 bg-dark-03 mb-5 ml-2"></div>
-            <p className="text-dark-02 dark:text-white text-lg mb-5">
-              Get latest updates, deals, and exclusive offers Every time.
-            </p>
-            <form>
-              <input
-                className="py-3 px-5 bg-gray-100 border border-gray-200 w-full rounded outline-none mb-4"
-                type="text"
-                name="name"
-                placeholder="Your Name"
-                id=""
-              />
-              <input
-                className="py-3 px-5 bg-gray-100 border border-gray-200 w-full rounded outline-none mb-4"
-                type="email"
-                name="email"
-                placeholder="Your Email"
-                id=""
-              />
-              <button
-                className="py-3 px-10 text-white bg-dark-03 rounded inline-flex gap-3 items-center"
-                type="submit"
-              >
-                Subscribe <FaPaperPlane></FaPaperPlane>
-              </button>
-            </form>
-          </div>
-          <div className="divider lg:divider-horizontal dark:text-white">
-            OR
-          </div>
-          <div
-            data-aos="fade-up"
-            data-aos-duration="1500"
-            className="md:w-1/2 p-10"
-          >
-            <h2 className="text-dark-01 dark:text-white font-semibold text-3xl md:text-4xl mb-2">
-              Contract now
-            </h2>
-            <div className="w-20 h-1.5 bg-dark-03 dark:text-white mb-5 ml-2"></div>
-            <div className="flex gap-3 font-medium text-xl items-center ">
-              <FaWhatsapp className="text-dark-03 dark:text-white text-3xl" />
-              <a className="text-dark-01 dark:text-white" href="#">
-                01590040222
-              </a>
-            </div>
-            <div className="flex gap-3 font-medium text-xl items-center ">
-              <MdEmail className="text-dark-03 dark:text-white text-3xl" />
-              <a
-                className="text-dark-01 dark:text-white"
-                href="mailto:rabby-webdeveloper@gmail.com"
-              >
-                rabby-webdeveloper@gmail.com
-              </a>
-            </div>
-            <div className="flex-1">
-              <h2 className="text-dark-01 dark:text-white font-semibold text-3xl md:text-4xl mb-2 mt-2">
-                Social Link
-              </h2>
-              <div className="text-dark-03 dark:text-white flex  gap-4 mt-4">
-                <a href="https://github.com/rabby-web">
-                  <div className="flex items-center justify-center gap-2 border rounded px-2 py-1">
-                    <FaGithub />
-                    <h2>GitHub</h2>
-                  </div>
-                </a>
-                <a href="https://www.linkedin.com/in/rabby-web/">
-                  <div className="flex items-center justify-center gap-2 border rounded px-2 py-1">
-                    <FaLinkedin />
+    <div className="h-72 w-52 flex items-center justify-center bg-gray-100">
+      <button
+        onClick={openModal}
+        className="bg-blue-500 text-white py-2 px-4 rounded-lg hover:bg-blue-600 transition duration-200"
+      >
+        Open Modal
+      </button>
 
-                    <h2>Linkedin</h2>
-                  </div>
-                </a>
-                <a href="https://www.facebook.com/ridoy.babu.3538">
-                  <div className="flex items-center justify-center gap-2 border rounded px-2 py-1">
-                    <FaFacebook />
-                    <h2>Facebook</h2>
-                  </div>
-                </a>
-              </div>
-            </div>
-            {/* <div className="flex gap-3 font-medium text-xl items-center ">
-              <FaLinkedin className="text-dark-03 dark:text-white text-3xl" />
-              <a
-                className="text-dark-01 dark:text-white"
-                href="mailto:rabby-webdeveloper@gmail.com"
+      {isModalOpen && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50">
+          <div className="bg-white rounded-lg shadow-lg w-full max-w-lg p-6 relative">
+            <button
+              onClick={closeModal}
+              className="absolute top-2 right-2 text-gray-400 hover:text-gray-600 focus:outline-none"
+            >
+              <svg
+                className="w-6 h-6"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
               >
-                Linkedin
-              </a>
-            </div> */}
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  d="M6 18L18 6M6 6l12 12"
+                />
+              </svg>
+            </button>
+            <h2 className="text-xl font-semibold mb-4">Modal Card Title</h2>
+            <p className="text-gray-700">
+              This is the content inside the modal card. You can add any custom
+              content here, such as text, forms, or other components.
+            </p>
+            <button
+              onClick={closeModal}
+              className="mt-6 w-full bg-blue-500 text-white py-2 rounded-lg hover:bg-blue-600 transition duration-200"
+            >
+              Close Modal
+            </button>
           </div>
         </div>
-      </div>
+      )}
     </div>
   );
 };
-
-export default Contract;

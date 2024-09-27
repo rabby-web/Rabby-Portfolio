@@ -55,7 +55,7 @@ const AboutPage = () => {
           </svg>
           <a href="#">
             <h5 className="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">
-              Need a help in Claim?
+              Full Stack Web Development
             </h5>
           </a>
           <p className="mb-3 font-normal text-gray-500 dark:text-gray-400">
@@ -96,7 +96,7 @@ const AboutPage = () => {
 
           <a href="#">
             <h5 className="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">
-              Need a help in Claim?
+              Backend Development
             </h5>
           </a>
           <p className="mb-3 font-normal text-gray-500 dark:text-gray-400">
@@ -141,7 +141,7 @@ const AboutPage = () => {
           </svg>
           <a href="#">
             <h5 className="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">
-              Need a help in Claim?
+              Online Support
             </h5>
           </a>
           <p className="mb-3 font-normal text-gray-500 dark:text-gray-400">
