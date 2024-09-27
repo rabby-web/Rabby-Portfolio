@@ -1,18 +1,18 @@
 import Image from "next/image";
 import React from "react";
+import pI from "../../../assets/icon/pp.jpg";
 
 const ProjectCard = () => {
   return (
     <div>
       <div className="max-w-sm border rounded overflow-hidden shadow-lg">
-        {/* <Image
+        <Image
           className="w-full"
-          src="/img/card-top.jpg"
+          src={pI}
           alt="Sunset in the mountains"
-          width={400}
-          height={400}
-        ></Image> */}
-        <div className="w-full border h-32 opacity-40"></div>
+          height={200}
+        ></Image>
+
         <div className="px-6 py-4">
           <div className="font-bold text-xl mb-2">The Coldest Sunset</div>
           <p className="text-gray-700 text-base">
