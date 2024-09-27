@@ -8,10 +8,10 @@ const BannerText = () => {
       {/* test */}
 
       <h4 className="text-rose-600">Hello, this is</h4>
-      <h2 className="text-dark-03 text-3xl md:text-5xl font-bold text-[#46EBC2]">
+      <h2 className="text-dark-03 text-3xl md:text-4xl lg:text-5xl font-bold text-[#46EBC2]">
         Zulkar Naeem Rabby
       </h2>
-      <h2 className="dark:text-white text-xl md:text-3xl font-semibold">
+      <h2 className="dark:text-white text-xl md:text-2xl lg:text-3xl font-semibold">
         And I{"'"}m{" "}
         <span className="dark:text-[#61DAFB] text-[#134699]">
           Full Stack Web-Developer
@@ -30,7 +30,7 @@ const BannerText = () => {
           </span>
           <span
             aria-label="about me"
-            className="relative text-white hover:text-purple-800 text-xl"
+            className="relative text-white hover:text-purple-800 lg:text-xl"
           >
             About Me
           </span>
@@ -46,7 +46,7 @@ const BannerText = () => {
           </span>
           <span
             aria-label="about me"
-            className="relative text-white hover:text-purple-800 text-xl"
+            className="relative text-white hover:text-purple-800 lg:text-xl"
           >
             Download Resume
           </span>

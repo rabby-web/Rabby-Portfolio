@@ -6,7 +6,7 @@ import { FaArrowTrendUp } from "react-icons/fa6";
 
 const Status = () => {
   return (
-    <div className="flex gap-16 mt-5">
+    <div className="flex flex-col md:flex-row gap-4 md:gap-16 mt-5">
       <div>
         <div className="flex items-center gap-3">
           <FaCodeCommit className="text-xl font-semibold text-rose-600" />

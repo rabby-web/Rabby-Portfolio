@@ -112,7 +112,7 @@ const Navbar = () => {
           <div className="-mr-2 flex md:hidden">
             <button
               onClick={toggleMenu}
-              className="inline-flex items-center justify-center p-1 text-xl rounded-md text-gray-800 hover:text-white hover:bg-gray-800 focus:outline-none focus:bg-gray-800 focus:text-white transition duration-150 ease-in-out dark:text-white hover:dark:text-white "
+              className="inline-flex items-center justify-center p-1 text-xl rounded-md text-gray-800 hover:text-white hover:bg-gray-800 focus:outline-none focus:bg-gray-800 focus:text-white transition duration-150 ease-in-out dark:text-[#46EBC2] hover:dark:text-white "
               aria-label="Toggle menu"
             >
               {isOpen ? <FaTimes /> : <FaAlignRight />}
@@ -148,7 +148,7 @@ const Navbar = () => {
                 href="/"
                 className={`link ${
                   pathname === "/"
-                    ? "dark:text-rose-700 text-blue-700 block px-3 py-2 rounded-md text-base font-medium  dark:hover:bg-gray-900 focus:outline-none dark:focus:bg-gray-700 hover:bg-gray-100  focus:bg-gray-200 transition duration-150 ease-in-out "
+                    ? "dark:text-rose-700 text-blue-700 block px-3 py-2 rounded-md   dark:hover:bg-gray-900 focus:outline-none dark:focus:bg-gray-700 hover:bg-gray-100  focus:bg-gray-200 transition duration-150 ease-in-out font-semibold text-lg"
                     : "dark:text-[#46EBC2] text-black block px-3 py-2 rounded-md text-base font-medium  dark:hover:bg-gray-900 focus:outline-none dark:focus:bg-gray-700 hover:bg-gray-100  focus:bg-gray-200 transition duration-150 ease-in-out "
                 }`}
               >
@@ -158,7 +158,7 @@ const Navbar = () => {
                 href="about"
                 className={`link ${
                   pathname === "/about"
-                    ? "dark:text-rose-700 text-blue-700 block px-3 py-2 rounded-md text-base font-medium  dark:hover:bg-gray-900 focus:outline-none dark:focus:bg-gray-700 hover:bg-gray-100  focus:bg-gray-200 transition duration-150 ease-in-out "
+                    ? "dark:text-rose-700 text-blue-700 block px-3 py-2 rounded-md  font-semibold text-lg dark:hover:bg-gray-900 focus:outline-none dark:focus:bg-gray-700 hover:bg-gray-100  focus:bg-gray-200 transition duration-150 ease-in-out "
                     : "dark:text-[#46EBC2] text-black block px-3 py-2 rounded-md text-base font-medium  dark:hover:bg-gray-900 focus:outline-none dark:focus:bg-gray-700 hover:bg-gray-100  focus:bg-gray-200 transition duration-150 ease-in-out "
                 }`}
               >
@@ -168,7 +168,7 @@ const Navbar = () => {
                 href="project"
                 className={`link ${
                   pathname === "/project"
-                    ? "dark:text-rose-700 text-blue-700 block px-3 py-2 rounded-md text-base font-medium  dark:hover:bg-gray-900 focus:outline-none dark:focus:bg-gray-700 hover:bg-gray-100  focus:bg-gray-200 transition duration-150 ease-in-out "
+                    ? "dark:text-rose-700 text-blue-700 block px-3 py-2 rounded-md font-semibold text-lg  dark:hover:bg-gray-900 focus:outline-none dark:focus:bg-gray-700 hover:bg-gray-100  focus:bg-gray-200 transition duration-150 ease-in-out "
                     : "dark:text-[#46EBC2] text-black block px-3 py-2 rounded-md text-base font-medium  dark:hover:bg-gray-900 focus:outline-none dark:focus:bg-gray-700 hover:bg-gray-100  focus:bg-gray-200 transition duration-150 ease-in-out "
                 }`}
               >
@@ -178,7 +178,7 @@ const Navbar = () => {
                 href="skill"
                 className={`link ${
                   pathname === "/skill"
-                    ? "dark:text-rose-700 text-blue-700 block px-3 py-2 rounded-md text-base font-medium  dark:hover:bg-gray-900 focus:outline-none dark:focus:bg-gray-700 hover:bg-gray-100  focus:bg-gray-200 transition duration-150 ease-in-out "
+                    ? "dark:text-rose-700 text-blue-700 block px-3 py-2 rounded-md font-semibold text-lg  dark:hover:bg-gray-900 focus:outline-none dark:focus:bg-gray-700 hover:bg-gray-100  focus:bg-gray-200 transition duration-150 ease-in-out "
                     : "dark:text-[#46EBC2] text-black block px-3 py-2 rounded-md text-base font-medium  dark:hover:bg-gray-900 focus:outline-none dark:focus:bg-gray-700 hover:bg-gray-100  focus:bg-gray-200 transition duration-150 ease-in-out "
                 }`}
               >
@@ -188,7 +188,7 @@ const Navbar = () => {
                 href="contact"
                 className={`link ${
                   pathname === "/contact"
-                    ? "dark:text-rose-700 text-blue-700 block px-3 py-2 rounded-md text-base font-medium  dark:hover:bg-gray-900 focus:outline-none dark:focus:bg-gray-700 hover:bg-gray-100  focus:bg-gray-200 transition duration-150 ease-in-out "
+                    ? "dark:text-rose-700 text-blue-700 block px-3 py-2 rounded-md font-semibold text-lg  dark:hover:bg-gray-900 focus:outline-none dark:focus:bg-gray-700 hover:bg-gray-100  focus:bg-gray-200 transition duration-150 ease-in-out "
                     : "dark:text-[#46EBC2] text-black block px-3 py-2 rounded-md text-base font-medium  dark:hover:bg-gray-900 focus:outline-none dark:focus:bg-gray-700 hover:bg-gray-100  focus:bg-gray-200 transition duration-150 ease-in-out "
                 }`}
               >
@@ -197,7 +197,7 @@ const Navbar = () => {
               <div
                 className={`link ${
                   pathname === "/"
-                    ? "dark:text-rose-700 text-blue-700 block px-3 py-2 rounded-md text-base font-medium  dark:hover:bg-gray-900 focus:outline-none dark:focus:bg-gray-700 hover:bg-gray-100  focus:bg-gray-200 transition duration-150 ease-in-out "
+                    ? "dark:text-rose-700 text-blue-700 block px-3 py-2 rounded-md font-semibold text-lg  dark:hover:bg-gray-900 focus:outline-none dark:focus:bg-gray-700 hover:bg-gray-100  focus:bg-gray-200 transition duration-150 ease-in-out "
                     : "dark:text-[#46EBC2] text-black block px-3 py-2 rounded-md text-base font-medium  dark:hover:bg-gray-900 focus:outline-none dark:focus:bg-gray-700 hover:bg-gray-100  focus:bg-gray-200 transition duration-150 ease-in-out "
                 }`}
               >
