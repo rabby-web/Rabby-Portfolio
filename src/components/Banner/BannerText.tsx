@@ -1,15 +1,18 @@
 import React from "react";
 import Status from "./Status";
+// bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 inline-block text-transparent bg-clip-text
 
 const BannerText = () => {
   return (
     <div>
-      <h4 className="text-dark-01 dark:text-white">Hello, this is</h4>
-      <h2 className="text-dark-03 text-3xl md:text-5xl font-bold bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 inline-block text-transparent bg-clip-text">
+      {/* test */}
+
+      <h4 className="text-rose-600">Hello, this is</h4>
+      <h2 className="text-dark-03 text-3xl md:text-5xl font-bold text-[#46EBC2]">
         Zulkar Naeem Rabby
       </h2>
-      <h2 className="dark:text-white text-3xl font-semibold">
-        And Im{" "}
+      <h2 className="dark:text-white text-xl md:text-3xl font-semibold">
+        And I{"'"}m{" "}
         <span className="dark:text-[#61DAFB] text-[#134699]">
           Full Stack Web-Developer
         </span>

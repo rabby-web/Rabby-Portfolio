@@ -39,7 +39,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <div className="flex-shrink-0">
-              <div className="rounded-full border border-black dark:border-white hover:border-blue-700 hover:dark:border-rose-700  p-3">
+              <div className="rounded-full border text-black dark:text-[#46EBC2] border-black dark:border-[#46EBC2] hover:border-blue-700 hover:dark:border-rose-700  p-3">
                 ???
               </div>
             </div>
@@ -60,8 +60,8 @@ const Navbar = () => {
                 href="/"
                 className={`link ${
                   pathname === "/"
-                    ? "dark:text-rose-700 text-blue-700"
-                    : "dark:text-white text-black "
+                    ? "dark:text-rose-700 text-[#134699]"
+                    : "dark:text-[#46EBC2] text-black"
                 }`}
               >
                 Home
@@ -70,8 +70,8 @@ const Navbar = () => {
                 href="about"
                 className={`link ${
                   pathname === "/about"
-                    ? "dark:text-rose-700 text-blue-600"
-                    : "dark:text-white text-black"
+                    ? "dark:text-rose-700 text-[#134699]"
+                    : "dark:text-[#46EBC2] text-black"
                 }`}
               >
                 About
@@ -80,8 +80,8 @@ const Navbar = () => {
                 href="project"
                 className={`link ${
                   pathname === "/project"
-                    ? "dark:text-rose-700 text-blue-600"
-                    : "dark:text-white text-black"
+                    ? "dark:text-rose-700 text-[#134699]"
+                    : "dark:text-[#46EBC2] text-black"
                 }`}
               >
                 Project
@@ -90,8 +90,8 @@ const Navbar = () => {
                 href="skill"
                 className={`link ${
                   pathname === "/skill"
-                    ? "dark:text-rose-700 text-blue-600"
-                    : "dark:text-white text-black"
+                    ? "dark:text-rose-700 text-[#134699]"
+                    : "dark:text-[#46EBC2] text-black"
                 }`}
               >
                 Skill
@@ -100,8 +100,8 @@ const Navbar = () => {
                 href="contact"
                 className={`link ${
                   pathname === "/contact"
-                    ? "dark:text-rose-700 text-blue-600"
-                    : "dark:text-white text-black"
+                    ? "dark:text-rose-700 text-[#134699]"
+                    : "dark:text-[#46EBC2] text-black"
                 }`}
               >
                 Contact
@@ -149,7 +149,7 @@ const Navbar = () => {
                 className={`link ${
                   pathname === "/"
                     ? "dark:text-rose-700 text-blue-700 block px-3 py-2 rounded-md text-base font-medium  dark:hover:bg-gray-900 focus:outline-none dark:focus:bg-gray-700 hover:bg-gray-100  focus:bg-gray-200 transition duration-150 ease-in-out "
-                    : "dark:text-white text-black block px-3 py-2 rounded-md text-base font-medium  dark:hover:bg-gray-900 focus:outline-none dark:focus:bg-gray-700 hover:bg-gray-100  focus:bg-gray-200 transition duration-150 ease-in-out "
+                    : "dark:text-[#46EBC2] text-black block px-3 py-2 rounded-md text-base font-medium  dark:hover:bg-gray-900 focus:outline-none dark:focus:bg-gray-700 hover:bg-gray-100  focus:bg-gray-200 transition duration-150 ease-in-out "
                 }`}
               >
                 Home
@@ -159,7 +159,7 @@ const Navbar = () => {
                 className={`link ${
                   pathname === "/about"
                     ? "dark:text-rose-700 text-blue-700 block px-3 py-2 rounded-md text-base font-medium  dark:hover:bg-gray-900 focus:outline-none dark:focus:bg-gray-700 hover:bg-gray-100  focus:bg-gray-200 transition duration-150 ease-in-out "
-                    : "dark:text-white text-black block px-3 py-2 rounded-md text-base font-medium  dark:hover:bg-gray-900 focus:outline-none dark:focus:bg-gray-700 hover:bg-gray-100  focus:bg-gray-200 transition duration-150 ease-in-out "
+                    : "dark:text-[#46EBC2] text-black block px-3 py-2 rounded-md text-base font-medium  dark:hover:bg-gray-900 focus:outline-none dark:focus:bg-gray-700 hover:bg-gray-100  focus:bg-gray-200 transition duration-150 ease-in-out "
                 }`}
               >
                 About
@@ -169,7 +169,7 @@ const Navbar = () => {
                 className={`link ${
                   pathname === "/project"
                     ? "dark:text-rose-700 text-blue-700 block px-3 py-2 rounded-md text-base font-medium  dark:hover:bg-gray-900 focus:outline-none dark:focus:bg-gray-700 hover:bg-gray-100  focus:bg-gray-200 transition duration-150 ease-in-out "
-                    : "dark:text-white text-black block px-3 py-2 rounded-md text-base font-medium  dark:hover:bg-gray-900 focus:outline-none dark:focus:bg-gray-700 hover:bg-gray-100  focus:bg-gray-200 transition duration-150 ease-in-out "
+                    : "dark:text-[#46EBC2] text-black block px-3 py-2 rounded-md text-base font-medium  dark:hover:bg-gray-900 focus:outline-none dark:focus:bg-gray-700 hover:bg-gray-100  focus:bg-gray-200 transition duration-150 ease-in-out "
                 }`}
               >
                 Project
@@ -179,7 +179,7 @@ const Navbar = () => {
                 className={`link ${
                   pathname === "/skill"
                     ? "dark:text-rose-700 text-blue-700 block px-3 py-2 rounded-md text-base font-medium  dark:hover:bg-gray-900 focus:outline-none dark:focus:bg-gray-700 hover:bg-gray-100  focus:bg-gray-200 transition duration-150 ease-in-out "
-                    : "dark:text-white text-black block px-3 py-2 rounded-md text-base font-medium  dark:hover:bg-gray-900 focus:outline-none dark:focus:bg-gray-700 hover:bg-gray-100  focus:bg-gray-200 transition duration-150 ease-in-out "
+                    : "dark:text-[#46EBC2] text-black block px-3 py-2 rounded-md text-base font-medium  dark:hover:bg-gray-900 focus:outline-none dark:focus:bg-gray-700 hover:bg-gray-100  focus:bg-gray-200 transition duration-150 ease-in-out "
                 }`}
               >
                 Skill
@@ -189,7 +189,7 @@ const Navbar = () => {
                 className={`link ${
                   pathname === "/contact"
                     ? "dark:text-rose-700 text-blue-700 block px-3 py-2 rounded-md text-base font-medium  dark:hover:bg-gray-900 focus:outline-none dark:focus:bg-gray-700 hover:bg-gray-100  focus:bg-gray-200 transition duration-150 ease-in-out "
-                    : "dark:text-white text-black block px-3 py-2 rounded-md text-base font-medium  dark:hover:bg-gray-900 focus:outline-none dark:focus:bg-gray-700 hover:bg-gray-100  focus:bg-gray-200 transition duration-150 ease-in-out "
+                    : "dark:text-[#46EBC2] text-black block px-3 py-2 rounded-md text-base font-medium  dark:hover:bg-gray-900 focus:outline-none dark:focus:bg-gray-700 hover:bg-gray-100  focus:bg-gray-200 transition duration-150 ease-in-out "
                 }`}
               >
                 About
@@ -198,7 +198,7 @@ const Navbar = () => {
                 className={`link ${
                   pathname === "/"
                     ? "dark:text-rose-700 text-blue-700 block px-3 py-2 rounded-md text-base font-medium  dark:hover:bg-gray-900 focus:outline-none dark:focus:bg-gray-700 hover:bg-gray-100  focus:bg-gray-200 transition duration-150 ease-in-out "
-                    : "dark:text-white text-black block px-3 py-2 rounded-md text-base font-medium  dark:hover:bg-gray-900 focus:outline-none dark:focus:bg-gray-700 hover:bg-gray-100  focus:bg-gray-200 transition duration-150 ease-in-out "
+                    : "dark:text-[#46EBC2] text-black block px-3 py-2 rounded-md text-base font-medium  dark:hover:bg-gray-900 focus:outline-none dark:focus:bg-gray-700 hover:bg-gray-100  focus:bg-gray-200 transition duration-150 ease-in-out "
                 }`}
               >
                 <ModeToggle />
