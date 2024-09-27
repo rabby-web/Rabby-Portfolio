@@ -34,7 +34,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-white dark:bg-dark-bg-08 dark:text-white text-black sticky top-0 z-50">
+    <nav className="bg-white dark:bg-[#0B1221] dark:text-white text-black sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
@@ -45,7 +45,7 @@ const Navbar = () => {
             </div>
           </div>
           <div className="hidden md:block">
-            <div className="ml-10 flex items-baseline space-x-4 text-xl font-medium">
+            <div className="ml-10 flex items-baseline space-x-4 text-lg font-normal">
               {/* {menuItems.map((item) => (
                 <a
                   key={item.name}
