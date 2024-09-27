@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div className="">
       <Banner></Banner>
-      <div className="dark:bg-[#0F172A]">
+      <div className="dark:bg-[#0E1628]">
         <AboutPage></AboutPage>
       </div>
       <div className="dark:bg-dark-bg-08">

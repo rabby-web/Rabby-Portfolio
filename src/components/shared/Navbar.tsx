@@ -12,6 +12,7 @@ import { usePathname } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
 import { ModeToggle } from "./theme";
 import Link from "next/link";
+import Image from "next/image";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -40,7 +41,12 @@ const Navbar = () => {
           <div className="flex items-center">
             <div className="flex-shrink-0">
               <div className="rounded-full border text-black dark:text-[#46EBC2] border-black dark:border-[#46EBC2] hover:border-blue-700 hover:dark:border-rose-700  p-3">
-                ???
+                <Image
+                  src="https://i.ibb.co.com/n6vhKpG/IMG-20240609-WA0000-1.jpg"
+                  width={30}
+                  height={30}
+                  alt="."
+                ></Image>
               </div>
             </div>
           </div>
