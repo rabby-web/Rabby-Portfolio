@@ -5,8 +5,8 @@ import { slugs } from "./slugsData";
 export default function IconAnimation() {
   return (
     <div
+      className="w-full md:p-16 px-6 pb-8 md:pb-0"
       style={{
-        width: 350,
         position: "relative",
         display: "flex",
         alignItems: "center",

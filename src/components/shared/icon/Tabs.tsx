@@ -22,7 +22,7 @@ const Tabs = () => {
         {tabs.map((tab, index) => (
           <button
             key={tab.id}
-            className={`py-2 px-4 text-xl font-semibold transition-colors ${
+            className={`py-2 md:px-6 px-2 text-xl font-semibold transition-colors ${
               activeTab === index
                 ? "text-[#3CD1B8] border-b-2 border-[#3CD1B8]"
                 : "text-gray-500 hover:text-rose-600"

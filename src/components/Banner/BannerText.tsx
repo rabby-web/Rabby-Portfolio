@@ -4,7 +4,7 @@ import Status from "./Status";
 
 const BannerText = () => {
   return (
-    <div>
+    <div className="md:mt-44 p-3">
       {/* test */}
 
       <h4 className="text-rose-600">Hello, this is</h4>
