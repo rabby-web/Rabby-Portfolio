@@ -1,10 +1,10 @@
 import React from "react";
 
 type Time = {
-  date: String;
-  title: String;
-  description: String;
-  isLeft: Boolean;
+  date: string;
+  title: string;
+  description: string;
+  isLeft: boolean;
 };
 
 const timelineData = [
