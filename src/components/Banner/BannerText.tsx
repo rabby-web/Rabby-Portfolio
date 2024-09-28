@@ -1,5 +1,6 @@
 import React from "react";
 import Status from "./Status";
+import Link from "next/link";
 // bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 inline-block text-transparent bg-clip-text
 
 const BannerText = () => {
@@ -19,8 +20,8 @@ const BannerText = () => {
       </h2>
       <Status></Status>
       <div className="flex gap-2 justify-center items-center md:justify-start md:items-start">
-        <a
-          href="#_"
+        <Link
+          href="about"
           className="relative inline-flex items-center justify-center  p-4 px-5 py-3 overflow-hidden font-medium text-indigo-600 rounded-xl shadow-2xl group mt-6"
         >
           <span className="absolute top-0 left-0 w-40 h-40 -mt-10 -ml-3 transition-all duration-700 bg-[#2168D2] rounded-full blur-md ease"></span>
@@ -34,9 +35,9 @@ const BannerText = () => {
           >
             About Me
           </span>
-        </a>
+        </Link>
         <a
-          href="#_"
+          href="#_CV"
           className="relative inline-flex items-center justify-center  p-4 px-5 py-3 overflow-hidden font-medium text-indigo-600 rounded-xl shadow-2xl group mt-6"
         >
           <span className="absolute top-0 left-0 w-40 h-40 -mt-10 -ml-3 transition-all duration-700 bg-[#2168D2] rounded-full blur-md ease"></span>
