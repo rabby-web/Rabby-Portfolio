@@ -52,7 +52,6 @@
 //       href: undefined,
 //       target: undefined,
 //       rel: undefined,
-//       // eslint-disable-next-line @typescript-eslint/no-explicit-any
 //       onClick: (e: any) => e.preventDefault(),
 //     },
 //   });
@@ -64,7 +63,7 @@
 
 // type IconData = Awaited<ReturnType<typeof fetchSimpleIcons>>;
 
-// export function IconCloud({ iconSlugs }: DynamicCloudProps) {
+// export default function IconCloud({ iconSlugs }: DynamicCloudProps) {
 //   const [data, setData] = useState<IconData | null>(null);
 //   const { theme } = useTheme();
 
@@ -76,16 +75,14 @@
 //     if (!data) return null;
 
 //     return Object.values(data.simpleIcons).map((icon) =>
-//       renderCustomIcon(icon, theme || "light")
+//       renderCustomIcon(icon, theme || "light"),
 //     );
 //   }, [data, theme]);
 
 //   return (
-//     // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 //     // @ts-ignore
 //     <Cloud {...cloudProps}>
 //       <>{renderedIcons}</>
 //     </Cloud>
 //   );
 // }
-// //
