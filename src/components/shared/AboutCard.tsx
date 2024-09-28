@@ -25,8 +25,8 @@ const AboutCard = () => {
             Front-end development is the process of building components that
             interact with users.
           </p>
-          <a
-            href="#"
+          <Link
+            href="coming"
             className="inline-flex font-medium items-center text-[#4DBDDF] hover:underline"
           >
             See our guideline
@@ -45,7 +45,7 @@ const AboutCard = () => {
                 d="M15 11v4.833A1.166 1.166 0 0 1 13.833 17H2.167A1.167 1.167 0 0 1 1 15.833V4.167A1.166 1.166 0 0 1 2.167 3h4.618m4.447-2H17v5.768M9.111 8.889l7.778-7.778"
               />
             </svg>
-          </a>
+          </Link>
         </div>
         <div className="max-w-full m-3 p-6 bg-white border-b hover:dark:border-[#3CD1B8] border-gray-200 rounded-lg shadow dark:bg-[#0B1120] hover:dark:bg-gray-900 dark:border-gray-800 ">
           <svg
@@ -67,8 +67,8 @@ const AboutCard = () => {
             development, focusing on creating and managing the server logic,
             databases, and APIs.
           </p>
-          <a
-            href="#"
+          <Link
+            href="coming"
             className="inline-flex font-medium items-center text-[#4DBDDF] hover:underline"
           >
             See our guideline
@@ -87,7 +87,7 @@ const AboutCard = () => {
                 d="M15 11v4.833A1.166 1.166 0 0 1 13.833 17H2.167A1.167 1.167 0 0 1 1 15.833V4.167A1.166 1.166 0 0 1 2.167 3h4.618m4.447-2H17v5.768M9.111 8.889l7.778-7.778"
               />
             </svg>
-          </a>
+          </Link>
         </div>
         <div className="max-w-full m-3 p-6 bg-white border-b hover:dark:border-[#3CD1B8] border-gray-200 rounded-lg shadow dark:bg-[#0B1120] hover:dark:bg-gray-900 dark:border-gray-800 ">
           <svg
@@ -113,7 +113,7 @@ const AboutCard = () => {
             frontend and backend of applications
           </p>
           <Link
-            href="notfound"
+            href="coming"
             className="inline-flex font-medium items-center text-[#4DBDDF] hover:underline"
           >
             See our guideline
