@@ -5,7 +5,7 @@ import Tabs from "./icon/Tabs";
 const SkillPage = () => {
   return (
     <div>
-      <div className="md:h-[61rem] h-[95rem] w-full dark:bg-[#0E1628] bg-white  dark:bg-dot-white/[0.06] bg-dot-black/[0.06] ">
+      <div className="lg:h-[61rem] md:h-[89rem] h-[95rem] w-full dark:bg-[#0E1628] bg-white  dark:bg-dot-white/[0.06] bg-dot-black/[0.06] ">
         {/* Radial gradient for the container to give a faded look */}
         <div className=" pointer-events-none inset-0 flex items-center justify-center dark:bg-black bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
         <div className="max-w-7xl mx-auto ">

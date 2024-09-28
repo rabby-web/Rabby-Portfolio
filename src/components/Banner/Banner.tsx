@@ -12,7 +12,7 @@ const Banner = () => {
         {/* Radial gradient for the container to give a faded look */}
         <div className=" pointer-events-none inset-0 flex items-center justify-center dark:bg-black bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
         <div className="max-w-7xl mx-auto ">
-          <div className="md:mt-20">
+          <div className="lg:mt-20 md:mt-12">
             {/* grid */}
             <div className="flex flex-col-reverse md:flex md:flex-row items-center py-2 md:px-6 px-0">
               <div className="flex-1 text-center md:text-left space-y-2">
