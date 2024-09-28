@@ -57,10 +57,10 @@ export default function RootLayout({
           <Navbar />
           <div className="min-h-screen">{children}</div>
           <Footer />
-          <div className="fixed left-16 bottom-0 text-[#3CD1B8]">
+          <div className="fixed left-16 bottom-0 text-[#3CD1B8] hidden md:block">
             <LeftIcon></LeftIcon>
           </div>
-          <div className="fixed -right-20 bottom-0 text-[#3CD1B8]">
+          <div className="fixed -right-20 bottom-0 text-[#3CD1B8] hidden md:block">
             <RightText></RightText>
           </div>
         </ThemeProvider>
