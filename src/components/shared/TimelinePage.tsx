@@ -1,5 +1,5 @@
 import React from "react";
-import TimelineContent from "./TimelineContent";
+// import TimelineContent from "./TimelineContent";
 
 const TimelinePage = () => {
   return (
@@ -13,9 +13,7 @@ const TimelinePage = () => {
               <div className="text-[#3CD1B8]">Timeline</div>
               <div className="w-48 border border-[#3CD1B8]"></div>
             </div>
-            <div>
-              <TimelineContent></TimelineContent>
-            </div>
+            <div>{/* <TimelineContent></TimelineContent> */}</div>
           </div>
         </div>
       </div>
