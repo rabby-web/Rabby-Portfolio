@@ -3,8 +3,12 @@ import "./globals.css";
 import { ThemeProvider } from "@/src/components/theme-provider";
 import Navbar from "../components/shared/Navbar";
 import Footer from "../components/shared/Footer";
+import LeftIcon from "../components/MainIcon/LeftIcon";
 
 export const metadata: Metadata = {
+  icons: {
+    icon: "../assets/icon/rabby.jpg",
+  },
   title: "Rabby",
   description:
     "Full-stack web developer skilled in JavaScript, React, Next.js, Redux, MUI, ShadcnUi, AntDesign, Node.js, Express js, MongoDB, PostgreSQL, Redis, and many other tools.",
@@ -52,7 +56,9 @@ export default function RootLayout({
           <Navbar />
           <div className="min-h-screen">{children}</div>
           <Footer />
-          <div className="fixed left-0 bottom-0">rabby</div>
+          <div className="fixed left-16 bottom-0 text-[#3CD1B8]">
+            <LeftIcon></LeftIcon>
+          </div>
         </ThemeProvider>
       </body>
     </html>
