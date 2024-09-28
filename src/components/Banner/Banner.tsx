@@ -1,5 +1,6 @@
 "use client";
 
+import IconAnimation from "./Animation/IconAnimation";
 // import { IconCloudDemo } from "./BannerIcon";
 import BannerText from "./BannerText";
 
@@ -18,6 +19,7 @@ const Banner = () => {
                 <BannerText></BannerText>
               </div>
               <div className="flex-1  md:ml-16 lg:ml-32">
+                <IconAnimation></IconAnimation>
                 {/* <IconCloudDemo></IconCloudDemo> */}
               </div>
             </div>

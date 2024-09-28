@@ -7,7 +7,7 @@ import { FaGithub, FaLinkedin, FaFacebook } from "react-icons/fa";
 const ContactPage = () => {
   return (
     <div className="">
-      <div className="md:h-[61rem] h-[62rem] w-full dark:bg-[#0B1120] bg-white  dark:bg-dot-white/[0.1] bg-dot-black/[0.1] ">
+      <div className="md:h-[55rem] h-[68rem] w-full dark:bg-[#0B1120] bg-white  dark:bg-dot-white/[0.1] bg-dot-black/[0.1] ">
         {/* Radial gradient for the container to give a faded look */}
         <div className=" pointer-events-none inset-0 flex items-center justify-center dark:bg-black bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
         <div className="max-w-7xl mx-auto ">
@@ -61,7 +61,7 @@ const ContactPage = () => {
                 className="md:w-1/2 p-10"
               >
                 <h2 className="text-dark-01 dark:text-white font-semibold text-3xl md:text-4xl mb-2">
-                  Contract now
+                  Contact now
                 </h2>
                 <div className="w-20 h-1.5 bg-dark-03 dark:text-white mb-5 ml-2"></div>
                 <div className="flex gap-3 font-medium text-xl items-center ">
@@ -70,7 +70,7 @@ const ContactPage = () => {
                     01540643211
                   </a>
                 </div>
-                <div className="flex gap-3 font-medium text-xl items-center ">
+                <div className="flex gap-3 font-medium text-xl items-center mt-2">
                   <MdEmail className="text-dark-03 dark:text-[#3CD1B8] text-3xl" />
                   <a
                     className="text-dark-01 dark:text-white"
@@ -83,7 +83,7 @@ const ContactPage = () => {
                   <h2 className="text-dark-01 dark:text-white font-semibold text-3xl md:text-4xl mb-2 mt-2">
                     Social Link
                   </h2>
-                  <div className="text-dark-03 dark:text-[#3CD1B8]  flex  gap-4 mt-4">
+                  <div className="text-dark-03 dark:text-[#3CD1B8]  flex flex-col md:flex-row  gap-4 mt-4">
                     <a href="https://github.com/rabby-web">
                       <div className="flex items-center justify-center gap-2 border rounded px-2 py-1 hover:dark:text-rose-600 hover:dark:border-rose-600">
                         <FaGithub />
