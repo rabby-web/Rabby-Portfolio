@@ -5,7 +5,7 @@ const RightText = () => {
     <div>
       <div className="flex flex-col text-center items-center gap-3 text-xl">
         <div className="rotate-90 mb-40 hover:text-rose-600">
-          <a href="mailto: rabby.webdeveloper@gmail.com" target="_blank">
+          <a href="mailto:rabby.webdeveloper@gmail.com" target="_blank">
             {" "}
             rabby.webdeveloper@gmail.com
           </a>
