@@ -7,7 +7,7 @@ import { FaGithub, FaLinkedin, FaFacebook } from "react-icons/fa";
 const ContactPage = () => {
   return (
     <div className="">
-      <div className="md:h-[55rem] h-[68rem] w-full dark:bg-[#0B1120] bg-white  dark:bg-dot-white/[0.1] bg-dot-black/[0.1] ">
+      <div className="md:h-[60rem] h-[68rem] w-full dark:bg-[#0B1120] bg-white  dark:bg-dot-white/[0.1] bg-dot-black/[0.1] ">
         {/* Radial gradient for the container to give a faded look */}
         <div className=" pointer-events-none inset-0 flex items-center justify-center dark:bg-black bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
         <div className="max-w-7xl mx-auto ">
@@ -22,7 +22,7 @@ const ContactPage = () => {
                 data-aos-duration="1500"
                 className="md:w-1/2"
               >
-                <h2 className="text-[#3CD1B8] dark:text-rose-600 font-semibold text-3xl md:text-4xl mb-2">
+                <h2 className="text-[#3CD1B8] font-semibold text-3xl md:text-4xl mb-2">
                   Subscribe now
                 </h2>
                 <div className="w-20 h-1.5 bg-dark-03 mb-5 ml-2"></div>

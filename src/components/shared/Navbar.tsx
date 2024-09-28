@@ -3,12 +3,6 @@
 import React, { useState } from "react";
 import { FaAlignRight, FaTimes } from "react-icons/fa";
 import { usePathname } from "next/navigation";
-// import {
-//   AiOutlineHome,
-//   AiOutlineInfoCircle,
-//   AiOutlineRead,
-//   AiOutlineContacts,
-// } from "react-icons/ai";
 import { motion, AnimatePresence } from "framer-motion";
 import { ModeToggle } from "./theme";
 import Link from "next/link";
@@ -20,14 +14,6 @@ const Navbar = () => {
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
-
-  // const menuItems = [
-  //   { name: "Home", icon: <AiOutlineHome /> },
-  //   { name: "About", icon: <AiOutlineInfoCircle /> },
-  //   { name: "Blog", icon: <AiOutlineRead /> },
-  //   { name: "Contact Us", icon: <AiOutlineContacts /> },
-  // ];
-
   const menuVariants = {
     hidden: { opacity: 0, y: -20 },
     visible: { opacity: 1, y: 0 },
@@ -62,16 +48,6 @@ const Navbar = () => {
           </div>
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-4 text-lg font-normal">
-              {/* {menuItems.map((item) => (
-                <a
-                  key={item.name}
-                  href={`#${item.name.toLowerCase()}`}
-                  className="px-3 py-2 rounded-md text-sm font-medium hover:bg-gray-700 focus:outline-none focus:bg-gray-700 transition duration-150 ease-in-out"
-                  aria-label={item.name}
-                >
-                  {item.name}
-                </a>
-              ))} */}
               <Link
                 href="/"
                 className={`link ${
@@ -113,6 +89,16 @@ const Navbar = () => {
                 Skill
               </Link>
               <Link
+                href="timeline"
+                className={`link ${
+                  pathname === "/timeline"
+                    ? "dark:text-rose-700 text-[#134699]"
+                    : "dark:text-[#46EBC2] text-black"
+                }`}
+              >
+                Timeline
+              </Link>
+              <Link
                 href="contact"
                 className={`link ${
                   pathname === "/contact"
@@ -147,19 +133,6 @@ const Navbar = () => {
             transition={{ duration: 0.3 }}
           >
             <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-              {/* {menuItems.map((item) => (
-                <a
-                  key={item.name}
-                  href={`#${item.name.toLowerCase()}`}
-                  className="block px-3 py-2 rounded-md text-base font-medium text-white hover:bg-gray-700 focus:outline-none focus:bg-gray-700 transition duration-150 ease-in-out"
-                  aria-label={item.name}
-                >
-                  <span className="flex items-center">
-                    {item.icon}
-                    <span className="ml-2">{item.name}</span>
-                  </span>
-                </a>
-              ))} */}
               <Link
                 href="/"
                 className={`link ${
@@ -201,6 +174,16 @@ const Navbar = () => {
                 Skill
               </Link>
               <Link
+                href="timeline"
+                className={`link ${
+                  pathname === "/timeline"
+                    ? "dark:text-rose-700 text-blue-700 block px-3 py-2 rounded-md font-semibold text-lg  dark:hover:bg-gray-900 focus:outline-none dark:focus:bg-gray-700 hover:bg-gray-100  focus:bg-gray-200 transition duration-150 ease-in-out "
+                    : "dark:text-[#46EBC2] text-black block px-3 py-2 rounded-md text-base font-medium  dark:hover:bg-gray-900 focus:outline-none dark:focus:bg-gray-700 hover:bg-gray-100  focus:bg-gray-200 transition duration-150 ease-in-out "
+                }`}
+              >
+                Timeline
+              </Link>
+              <Link
                 href="contact"
                 className={`link ${
                   pathname === "/contact"
@@ -208,7 +191,7 @@ const Navbar = () => {
                     : "dark:text-[#46EBC2] text-black block px-3 py-2 rounded-md text-base font-medium  dark:hover:bg-gray-900 focus:outline-none dark:focus:bg-gray-700 hover:bg-gray-100  focus:bg-gray-200 transition duration-150 ease-in-out "
                 }`}
               >
-                About
+                Contact
               </Link>
               <div
                 className={`link ${
