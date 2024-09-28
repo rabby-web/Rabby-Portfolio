@@ -4,6 +4,7 @@ import { ThemeProvider } from "@/src/components/theme-provider";
 import Navbar from "../components/shared/Navbar";
 import Footer from "../components/shared/Footer";
 import LeftIcon from "../components/MainIcon/LeftIcon";
+import RightText from "../components/MainIcon/RightText";
 
 export const metadata: Metadata = {
   icons: {
@@ -58,6 +59,9 @@ export default function RootLayout({
           <Footer />
           <div className="fixed left-16 bottom-0 text-[#3CD1B8]">
             <LeftIcon></LeftIcon>
+          </div>
+          <div className="fixed -right-20 bottom-0 text-[#3CD1B8]">
+            <RightText></RightText>
           </div>
         </ThemeProvider>
       </body>
