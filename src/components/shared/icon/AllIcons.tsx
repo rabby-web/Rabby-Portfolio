@@ -20,8 +20,8 @@ const AllIcons = () => {
             <h2 className="text-lg pt-3 text-[#3CD1B8] hover:text-rose-600">
               {icon.name}
             </h2>
-            <p className="hidden absolute top-full  -mt-60 text-base text-blue-700 group-hover:block bg-white p-2 border  rounded-xl dark:bg-[#0B1120]">
-              <span className="bg-clip-text text-base text-transparent bg-gradient-to-r from-pink-500 to-violet-500">
+            <p className="hidden absolute top-full  -mt-60 text-base group-hover:block  p-2  dark:bg-[#0B1120] text-[#3CD1B8] rounded-md bg-white dark:bg-opacity-[0.01] border border-white border-opacity-10 backdrop-blur-[40px]">
+              <span className="bg-clip-text text-lg font-semibold text-transparent bg-gradient-to-r from-pink-500 to-violet-500 ">
                 {icon.title}
               </span>
 
