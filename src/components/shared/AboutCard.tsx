@@ -6,7 +6,7 @@ const AboutCard = () => {
     <div>
       {/* card */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:gap-6 gap-3 mt-10">
-        <div className="max-w-full m-3 p-6 bg-white border-b hover:dark:border-[#3CD1B8] border-gray-200 rounded-lg shadow dark:bg-[#0B1120] hover:dark:bg-gray-900 dark:border-gray-800 rounded-tr">
+        <div className="max-w-sm overflow-hidden shadow-lg w-full p-2 md:p-4  text-center flex flex-col justify-center items-center relative group hover:text-rose-600 text-[#3CD1B8] rounded-md bg-white dark:bg-opacity-[0.01] border border-white border-opacity-10 backdrop-blur-[10px]">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="currentColor"

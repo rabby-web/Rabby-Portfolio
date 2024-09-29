@@ -10,7 +10,7 @@ import Link from "next/link";
 const ProjectCard = () => {
   return (
     <div>
-      <div className="max-w-sm border rounded overflow-hidden shadow-lg ">
+      <div className="max-w-sm overflow-hidden shadow-lg w-full p-2 md:p-4  text-center flex flex-col justify-center items-center relative group hover:text-rose-600 text-[#3CD1B8] rounded-md bg-white dark:bg-opacity-[0.01] border border-white border-opacity-10 backdrop-blur-[10px]">
         <Image
           className="w-full"
           src={pI}

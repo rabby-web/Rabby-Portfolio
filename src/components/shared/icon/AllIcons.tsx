@@ -9,7 +9,7 @@ const AllIcons = () => {
         {icons?.map((icon) => (
           <div
             key={icon.id}
-            className="w-full p-2 md:p-4 border rounded-xl text-center flex flex-col justify-center items-center relative group hover:text-rose-600 text-[#3CD1B8]"
+            className="w-full p-2 md:p-4  text-center flex flex-col justify-center items-center relative group hover:text-rose-600 text-[#3CD1B8] rounded-md bg-white dark:bg-opacity-[0.01] border border-white border-opacity-10 backdrop-blur-[10px]"
           >
             <Image
               src={icon.image}
