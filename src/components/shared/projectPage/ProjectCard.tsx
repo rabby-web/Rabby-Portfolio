@@ -10,7 +10,7 @@ import Link from "next/link";
 const ProjectCard = () => {
   return (
     <div>
-      <div className="max-w-sm overflow-hidden shadow-lg w-full p-2 md:p-4  text-center flex flex-col justify-center items-center relative group hover:text-rose-600 text-[#3CD1B8] rounded-md bg-white dark:bg-opacity-[0.01] border border-white border-opacity-10 backdrop-blur-[10px]">
+      <div className="max-w-sm overflow-hidden shadow-lg w-full p-2 md:p-4  text-center  relative group hover:text-rose-600 text-[#3CD1B8] rounded-md bg-white dark:bg-opacity-[0.01] border border-white border-opacity-10 backdrop-blur-[10px]">
         <Image
           className="w-full"
           src={pI}
@@ -18,7 +18,7 @@ const ProjectCard = () => {
           height={180}
         ></Image>
 
-        <div className="px-6 py-4">
+        <div className=" py-3">
           <div className="font-bold text-xl mb-2 text-[#3CD1B8]">
             The Coldest Sunset
           </div>
@@ -27,8 +27,8 @@ const ProjectCard = () => {
             Voluptatibus quia, nulla!
           </p>
         </div>
-        <div className="flex justify-between items-center  px-3 pt-2 pb-2">
-          <div className="flex gap-3">
+        <div className="flex justify-between items-center  py-2">
+          <div className="flex gap-2">
             <Link href="coming">
               <FaGithub className="text-cyan-400 text-2xl" />
             </Link>
