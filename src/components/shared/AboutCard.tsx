@@ -10,14 +10,14 @@ const AboutCard = () => {
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="currentColor"
-            className="bi bi-code-square w-10 h-10 text-violet-600  hover:dark:text-[#3CD1B8] mb-3"
+            className="bi bi-code-square w-10 h-10 text-[#3CD1B8]  hover:dark:text-[#3CD1B8] mb-3"
             viewBox="0 0 16 16"
           >
             <path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z" />
             <path d="M6.854 4.646a.5.5 0 0 1 0 .708L4.207 8l2.647 2.646a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 0 1 .708 0m2.292 0a.5.5 0 0 0 0 .708L11.793 8l-2.647 2.646a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708 0" />
           </svg>
           <a href="#">
-            <h5 className="mb-2 text-2xl font-semibold tracking-tight text-[#4DBDDF] hover:text-[#3CD1B8]">
+            <h5 className="mb-2 text-2xl font-semibold tracking-tight text-[#3CD1B8] hover:text-[#3CD1B8]">
               Frontend Development
             </h5>
           </a>
@@ -27,7 +27,7 @@ const AboutCard = () => {
           </p>
           <Link
             href="coming"
-            className="inline-flex font-medium items-center text-[#4DBDDF] hover:underline"
+            className="inline-flex font-medium items-center text-[#3CD1B8] hover:underline"
           >
             See our guideline
             <svg
@@ -47,7 +47,7 @@ const AboutCard = () => {
             </svg>
           </Link>
         </div>
-        <div className="max-w-full m-3 p-6 bg-white border-b hover:dark:border-[#3CD1B8] border-gray-200 rounded-lg shadow dark:bg-[#0B1120] hover:dark:bg-gray-900 dark:border-gray-800 ">
+        <div className="max-w-sm overflow-hidden shadow-lg w-full p-2 md:p-4  text-center flex flex-col justify-center items-center relative group hover:text-rose-600 text-[#3CD1B8] rounded-md bg-white dark:bg-opacity-[0.01] border border-white border-opacity-10 backdrop-blur-[10px]">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="currentColor"
@@ -89,7 +89,7 @@ const AboutCard = () => {
             </svg>
           </Link>
         </div>
-        <div className="max-w-full m-3 p-6 bg-white border-b hover:dark:border-[#3CD1B8] border-gray-200 rounded-lg shadow dark:bg-[#0B1120] hover:dark:bg-gray-900 dark:border-gray-800 ">
+        <div className="max-w-sm overflow-hidden shadow-lg w-full p-2 md:p-4  text-center flex flex-col justify-center items-center relative group hover:text-rose-600 text-[#3CD1B8] rounded-md bg-white dark:bg-opacity-[0.01] border border-white border-opacity-10 backdrop-blur-[10px]">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="16"
