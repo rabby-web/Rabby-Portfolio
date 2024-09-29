@@ -12,11 +12,14 @@ const AboutPage = () => {
           </div>
           <p className="sm:text-base md:text-lg font-medium max-w-5xl mx-auto  md:text-left p-3 text-dark-01 dark:text-white text-justify md:mt-4">
             <span className="font-semibold text-xl ">
-              Hi, I am <span className="text-red-600">Zulkar Naeem Rabby</span>
+              Hi, I am{" "}
+              <span className="text-[#4ca1e7] hover:text-[#3CD1B8]">
+                Zulkar Naeem Rabby
+              </span>
             </span>
             <br />
             <br />
-            <span className="dark:text-gray-300 text-gray-700">
+            <span className="font-normal text-gray-700 dark:text-gray-400 hover:dark:text-gray-300 hover:text-gray-600">
               {" "}
               I am a highly motivated and self-taught MERN Stack Developer with
               a passion for crafting dynamic and intuitive web applications.
@@ -27,7 +30,7 @@ const AboutPage = () => {
             </span>
             <br />
             <br />
-            <span className="dark:text-gray-300 text-gray-700">
+            <span className="font-normal text-gray-500 dark:text-gray-400 hover:dark:text-gray-300 hover:text-gray-600">
               {" "}
               I am a highly motivated and self-taught MERN Stack Developer with
               a passion for crafting dynamic and intuitive web applications.

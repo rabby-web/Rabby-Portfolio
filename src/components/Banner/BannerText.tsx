@@ -12,7 +12,7 @@ const BannerText = () => {
       <h2 className="text-dark-03 text-3xl md:text-4xl lg:text-5xl font-bold text-[#46EBC2]">
         Zulkar Naeem Rabby
       </h2>
-      <h2 className="dark:text-white text-xl md:text-2xl lg:text-3xl font-semibold">
+      <h2 className="dark:text-white text-xl md:text-2xl lg:text-3xl font-semibold lg:mt-2">
         And I{"'"}m{" "}
         <span className="dark:text-[#61DAFB] text-[#134699]">
           Full Stack Web-Developer
