@@ -16,7 +16,7 @@ const ContactPage = () => {
               <div className="text-[#3CD1B8]">Contact</div>
               <div className="w-48 border border-[#3CD1B8]"></div>
             </div>
-            <div className="max-w-7xl mx-auto p-10 my-20 flex flex-col-reverse md:flex-row gap-6 items-center shadow-md rounded-xl border border-gray-200">
+            <div className="max-w-7xl mx-auto p-10 my-20 flex flex-col-reverse md:flex-row gap-6 items-center shadow-md  hover:text-[#4ca1e7] text-[#3CD1B8] rounded-md bg-white dark:bg-opacity-[0.01] border border-white border-opacity-10 backdrop-blur-[10px]">
               <div
                 data-aos="fade-up"
                 data-aos-duration="1500"
@@ -85,20 +85,20 @@ const ContactPage = () => {
                   </h2>
                   <div className="text-dark-03 dark:text-[#3CD1B8]  flex flex-col md:flex-row  gap-4 mt-4">
                     <a href="https://github.com/rabby-web">
-                      <div className="flex items-center justify-center gap-2 border rounded px-2 py-1 hover:dark:text-rose-600 hover:dark:border-rose-600">
+                      <div className="flex items-center justify-center gap-2 border rounded px-2 py-1 hover:dark:text-[#4ca1e7] hover:dark:border-[#4ca1e7]">
                         <FaGithub />
                         <h2>GitHub</h2>
                       </div>
                     </a>
                     <a href="https://www.linkedin.com/in/rabby-web/">
-                      <div className="flex items-center justify-center gap-2 border rounded px-2 py-1 hover:dark:text-rose-600 hover:dark:border-rose-600">
+                      <div className="flex items-center justify-center gap-2 border rounded px-2 py-1 hover:dark:text-[#4ca1e7] hover:dark:border-[#4ca1e7]">
                         <FaLinkedin />
 
                         <h2>Linkedin</h2>
                       </div>
                     </a>
                     <a href="https://www.facebook.com/ridoy.babu.3538">
-                      <div className="flex items-center justify-center gap-2 border rounded px-2 py-1 hover:dark:text-rose-600 hover:dark:border-rose-600">
+                      <div className="flex items-center justify-center gap-2 border rounded px-2 py-1 hover:dark:text-[#4ca1e7] hover:dark:border-[#4ca1e7]">
                         <FaFacebook />
                         <h2>Facebook</h2>
                       </div>
