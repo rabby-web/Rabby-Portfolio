@@ -206,3 +206,15 @@
 // };
 
 // export default TimelineContent;
+
+import React from "react";
+
+const TimelineContent = () => {
+  return (
+    <div>
+      <h2>This Is Time Line Components</h2>
+    </div>
+  );
+};
+
+export default TimelineContent;
