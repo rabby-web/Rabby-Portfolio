@@ -1,6 +1,7 @@
 import React from "react";
 import Status from "./Status";
 import Link from "next/link";
+import { TypeAnimation } from "react-type-animation";
 // bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 inline-block text-transparent bg-clip-text
 
 const BannerText = () => {
@@ -12,10 +13,27 @@ const BannerText = () => {
       <h2 className="text-dark-03 text-3xl md:text-4xl lg:text-5xl font-bold text-[#46EBC2]">
         Zulkar Naeem Rabby
       </h2>
+
       <h2 className="dark:text-white text-xl md:text-2xl lg:text-3xl font-semibold lg:mt-2">
         And I{"'"}m{" "}
         <span className="dark:text-[#61DAFB] text-[#134699]">
-          Full Stack Web-Developer
+          <TypeAnimation
+            sequence={[
+              // Same substring at the start will only be typed out once, initially
+              "Full Stack Developer",
+              1000, // wait 1s before replacing "Mice" with "Hamsters"
+              "MERN Stack Developer",
+              1000,
+              "Backend Developer",
+              1000,
+              "Frontend Developer",
+              1000,
+            ]}
+            wrapper="span"
+            speed={50}
+            style={{ fontSize: "1.5rem", display: "inline-block" }}
+            repeat={Infinity}
+          />
         </span>
       </h2>
       <Status></Status>
