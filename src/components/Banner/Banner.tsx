@@ -1,4 +1,3 @@
-"use client";
 
 import IconAnimation from "./Animation/IconAnimation";
 // import { IconCloudDemo } from "./BannerIcon";

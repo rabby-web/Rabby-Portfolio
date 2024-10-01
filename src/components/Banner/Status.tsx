@@ -19,7 +19,7 @@ const Status = () => {
           <FaArrowTrendUp className="text-xl font-semibold text-rose-600" />
           <p>
             Longest Streak:{" "}
-            <span className="text-[#61DAFB] font-semibold">27day +</span>
+            <span className="text-[#61DAFB] font-semibold">30day +</span>
           </p>
         </div>
         <div className="flex   gap-3">
