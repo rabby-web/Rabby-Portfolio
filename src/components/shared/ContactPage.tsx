@@ -3,6 +3,7 @@ import { FaPaperPlane } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { FaGithub, FaLinkedin, FaFacebook } from "react-icons/fa";
+import Link from "next/link";
 
 const ContactPage = () => {
   return (
@@ -66,43 +67,43 @@ const ContactPage = () => {
                 <div className="w-20 h-1.5 bg-dark-03 dark:text-white mb-5 ml-2"></div>
                 <div className="flex gap-3 font-medium text-xl items-center ">
                   <FaWhatsapp className="text-dark-03 dark:text-[#3CD1B8] text-3xl" />
-                  <a className="text-dark-01 dark:text-white" href="#">
+                  <Link className="text-dark-01 dark:text-white" href="#">
                     01540643211
-                  </a>
+                  </Link>
                 </div>
                 <div className="flex gap-3 font-medium text-xl items-center mt-2">
                   <MdEmail className="text-dark-03 dark:text-[#3CD1B8] text-3xl" />
-                  <a
+                  <Link 
                     className="text-dark-01 dark:text-white"
                     href="mailto:rabby-webdeveloper@gmail.com"
                   >
                     rabby-webdeveloper@gmail.com
-                  </a>
+                  </Link>
                 </div>
                 <div className="flex-1">
                   <h2 className="text-dark-01 dark:text-white font-semibold text-3xl md:text-4xl mb-2 mt-2">
                     Social Link
                   </h2>
                   <div className="text-dark-03 dark:text-[#3CD1B8]  flex flex-col md:flex-row  gap-4 mt-4">
-                    <a href="https://github.com/rabby-web">
+                    <Link  href="https://github.com/rabby-web">
                       <div className="flex items-center justify-center gap-2 border rounded px-2 py-1 hover:dark:text-[#4ca1e7] hover:dark:border-[#4ca1e7]">
                         <FaGithub />
                         <h2>GitHub</h2>
                       </div>
-                    </a>
-                    <a href="https://www.linkedin.com/in/rabby-web/">
+                    </Link>
+                    <Link  href="https://www.linkedin.com/in/rabby-web/">
                       <div className="flex items-center justify-center gap-2 border rounded px-2 py-1 hover:dark:text-[#4ca1e7] hover:dark:border-[#4ca1e7]">
                         <FaLinkedin />
 
                         <h2>Linkedin</h2>
                       </div>
-                    </a>
-                    <a href="https://www.facebook.com/ridoy.babu.3538">
+                    </Link>
+                    <Link  href="https://www.facebook.com/ridoy.babu.3538">
                       <div className="flex items-center justify-center gap-2 border rounded px-2 py-1 hover:dark:text-[#4ca1e7] hover:dark:border-[#4ca1e7]">
                         <FaFacebook />
                         <h2>Facebook</h2>
                       </div>
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 {/* <div className="flex gap-3 font-medium text-xl items-center ">

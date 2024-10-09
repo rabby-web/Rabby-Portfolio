@@ -54,7 +54,7 @@ const BannerText = () => {
             About Me
           </span>
         </Link>
-        <a
+        <Link 
           href="#_CV"
           className="relative inline-flex items-center justify-center  p-4 px-5 py-3 overflow-hidden font-medium text-indigo-600 rounded-xl shadow-2xl group mt-6"
         >
@@ -69,7 +69,7 @@ const BannerText = () => {
           >
             Download Resume
           </span>
-        </a>
+        </Link>
       </div>
     </div>
   );

@@ -19,14 +19,14 @@ const Status = () => {
           <FaArrowTrendUp className="text-xl font-semibold text-rose-600" />
           <p>
             Longest Streak:{" "}
-            <span className="text-[#61DAFB] font-semibold">30day +</span>
+            <span className="text-[#61DAFB] font-semibold">35d +</span>
           </p>
         </div>
         <div className="flex   gap-3">
           <FaProjectDiagram className="text-xl font-semibold text-rose-600" />
           <p>
             Total Project:{" "}
-            <span className="text-[#61DAFB] font-semibold">15 +</span>
+            <span className="text-[#61DAFB] font-semibold">20 +</span>
           </p>
         </div>
 
