@@ -21,7 +21,7 @@ const AboutCard = () => {
               Frontend Development
             </h5>
           </Link>
-          <p className="mb-3 font-normal text-gray-500 dark:text-gray-400 hover:dark:text-gray-300 hover:text-gray-600">
+          <p className="mb-3 font-normal text-gray-600 dark:text-gray-300 hover:dark:text-gray-300 hover:text-gray-600">
             Front-end development is the process of building components that
             interact with users.
           </p>

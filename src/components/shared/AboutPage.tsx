@@ -19,7 +19,7 @@ const AboutPage = () => {
             </span>
             <br />
             <br />
-            <span className="font-normal text-gray-700 dark:text-gray-400 hover:dark:text-gray-300 hover:text-gray-600">
+            <span className="font-normal text-gray-800 dark:text-gray-300 hover:dark:text-gray-300 hover:text-gray-600">
               {" "}
               I am a highly motivated and self-taught MERN Stack Developer with
               a passion for crafting dynamic and intuitive web applications.
@@ -30,7 +30,7 @@ const AboutPage = () => {
             </span>
             <br />
             <br />
-            <span className="font-normal text-gray-500 dark:text-gray-400 hover:dark:text-gray-300 hover:text-gray-600">
+            <span className="font-normal text-gray-700 dark:text-gray-300 hover:dark:text-gray-300 hover:text-gray-600">
               {" "}
               I am a highly motivated and self-taught MERN Stack Developer with
               a passion for crafting dynamic and intuitive web applications.
