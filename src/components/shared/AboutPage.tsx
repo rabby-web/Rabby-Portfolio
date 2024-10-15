@@ -10,32 +10,41 @@ const AboutPage = () => {
             <div className="text-[#3CD1B8]">About Me</div>
             <div className="w-48 border border-[#3CD1B8]"></div>
           </div>
-          <p className="sm:text-base md:text-lg font-medium max-w-5xl mx-auto  md:text-left p-3 text-dark-01 dark:text-white text-justify md:mt-4">
-            <span className="font-semibold text-xl ">
-              Hi, I am{" "}
-              <span className="text-[#4ca1e7] hover:text-[#3CD1B8]">
-                Zulkar Naeem Rabby
-              </span>
-            </span>
-            <br />
-            <br />
-            <span className="font-normal text-gray-800 dark:text-gray-300 hover:dark:text-gray-300 hover:text-gray-600">
-              {" "}
-              I am a highly motivated and self-taught MERN Stack Developer with
-              a passion for crafting dynamic and intuitive web applications.
-              Specializing in frontend development using React.js and backend
-              development with Node.js and Express.js, I bring a wealth of
-              knowledge and hands-on experience to create seamless and engaging
-              user experiences.{" "}
-            </span>
-            <br />
-            <br />
-            <span className="font-normal text-gray-700 dark:text-gray-300 hover:dark:text-gray-300 hover:text-gray-600">
-              {" "}
-              I am a highly motivated and self-taught MERN Stack Developer with
-              a passion for crafting dynamic and intuitive web applications.
-            </span>
-          </p>
+          <div className="flex justify-center items-center gap-3">
+            <div className="border flex-1">
+              <h2>Image Section</h2>
+            </div>
+
+            <div className="border flex-1">
+              <p className="sm:text-base md:text-lg font-medium max-w-5xl mx-auto  md:text-left p-3 text-dark-01 dark:text-white text-justify md:mt-4">
+                <span className="font-semibold text-xl ">
+                  Hi, I am{" "}
+                  <span className="text-[#4ca1e7] hover:text-[#3CD1B8]">
+                    Zulkar Naeem Rabby
+                  </span>
+                </span>
+                <br />
+                <br />
+                <span className="font-normal text-gray-800 dark:text-gray-300 hover:dark:text-gray-300 hover:text-gray-600">
+                  {" "}
+                  I am a highly motivated and self-taught MERN Stack Developer
+                  with a passion for crafting dynamic and intuitive web
+                  applications. Specializing in frontend development using
+                  React.js and backend development with Node.js and Express.js,
+                  I bring a wealth of knowledge and hands-on experience to
+                  create seamless and engaging user experiences.{" "}
+                </span>
+                <br />
+                <br />
+                <span className="font-normal text-gray-700 dark:text-gray-300 hover:dark:text-gray-300 hover:text-gray-600">
+                  {" "}
+                  I am a highly motivated and self-taught MERN Stack Developer
+                  with a passion for crafting dynamic and intuitive web
+                  applications.
+                </span>
+              </p>
+            </div>
+          </div>
         </div>
       </div>
       <AboutCard></AboutCard>
