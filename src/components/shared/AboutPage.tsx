@@ -1,10 +1,10 @@
 import Image from "next/image";
-import img from "../../assets/icon/ds.jpeg";
+import img from "../../assets/icon/about.gif";
 import AboutCard from "./AboutCard";
 
 const AboutPage = () => {
   return (
-    <div className="max-w-7xl mx-auto py-10 lg:h-[61rem] md:h-[64rem] dark:bg-[#0E1628]">
+    <div className="max-w-7xl mx-auto py-10 lg:h-[65rem] md:h-[64rem] dark:bg-[#0E1628]">
       {/* about section */}
       <div>
         <div className="flex-1">
@@ -12,14 +12,15 @@ const AboutPage = () => {
             <div className="text-[#3CD1B8]">About Me</div>
             <div className="w-48 border border-[#3CD1B8]"></div>
           </div>
-          <div className="md:flex justify-center items-center gap-3 ">
+          <div className="md:flex justify-center items-center gap-3 mt-8">
             <div className=" flex-1 ">
               <Image
                 src={img}
-                width={320}
-                height={345}
+                width={0}
+                height={0}
                 alt="{img}"
-                className="mx-auto border rounded-t-full"
+                style={{ width: "70%", height: "70%" }}
+                className="mx-auto md:rounded-full"
               ></Image>
             </div>
 
