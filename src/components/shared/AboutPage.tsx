@@ -1,3 +1,4 @@
+import { video } from "../../assets/rrr.mp4";
 import AboutCard from "./AboutCard";
 
 const AboutPage = () => {
@@ -10,9 +11,18 @@ const AboutPage = () => {
             <div className="text-[#3CD1B8]">About Me</div>
             <div className="w-48 border border-[#3CD1B8]"></div>
           </div>
-          <div className="flex justify-center items-center gap-3">
-            <div className="border flex-1">
-              <h2>Image Section</h2>
+          <div className="md:flex justify-center items-center gap-3 ">
+            <div className="border flex-1 ">
+              <iframe
+                width="100%"
+                height="315"
+                src="https://www.youtube.com/embed/X-UeQkLEXqk?si=JqPq0VqCG7PiuVfT"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
             </div>
 
             <div className="border flex-1">
