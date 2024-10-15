@@ -1,4 +1,5 @@
-import { video } from "../../assets/rrr.mp4";
+import Image from "next/image";
+import img from "../../assets/icon/ds.jpeg";
 import AboutCard from "./AboutCard";
 
 const AboutPage = () => {
@@ -12,20 +13,17 @@ const AboutPage = () => {
             <div className="w-48 border border-[#3CD1B8]"></div>
           </div>
           <div className="md:flex justify-center items-center gap-3 ">
-            <div className="border flex-1 ">
-              <iframe
-                width="100%"
-                height="315"
-                src="https://www.youtube.com/embed/X-UeQkLEXqk?si=JqPq0VqCG7PiuVfT"
-                title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin"
-                allowfullscreen
-              ></iframe>
+            <div className=" flex-1 ">
+              <Image
+                src={img}
+                width={320}
+                height={345}
+                alt="{img}"
+                className="mx-auto border rounded-t-full"
+              ></Image>
             </div>
 
-            <div className="border flex-1">
+            <div className="flex-1">
               <p className="sm:text-base md:text-lg font-medium max-w-5xl mx-auto  md:text-left p-3 text-dark-01 dark:text-white text-justify md:mt-4">
                 <span className="font-semibold text-xl ">
                   Hi, I am{" "}
