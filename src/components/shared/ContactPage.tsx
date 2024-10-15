@@ -73,7 +73,7 @@ const ContactPage = () => {
                 </div>
                 <div className="flex gap-3 font-medium text-xl items-center mt-2">
                   <MdEmail className="text-dark-03 dark:text-[#3CD1B8] text-3xl" />
-                  <Link 
+                  <Link
                     className="text-dark-01 dark:text-white"
                     href="mailto:rabby-webdeveloper@gmail.com"
                   >
@@ -85,20 +85,20 @@ const ContactPage = () => {
                     Social Link
                   </h2>
                   <div className="text-dark-03 dark:text-[#3CD1B8]  flex flex-col md:flex-row  gap-4 mt-4">
-                    <Link  href="https://github.com/rabby-web">
+                    <Link href="https://github.com/rabby-web">
                       <div className="flex items-center justify-center gap-2 border rounded px-2 py-1 hover:dark:text-[#4ca1e7] hover:dark:border-[#4ca1e7]">
                         <FaGithub />
                         <h2>GitHub</h2>
                       </div>
                     </Link>
-                    <Link  href="https://www.linkedin.com/in/rabby-web/">
+                    <Link href="https://www.linkedin.com/in/rabby-web/">
                       <div className="flex items-center justify-center gap-2 border rounded px-2 py-1 hover:dark:text-[#4ca1e7] hover:dark:border-[#4ca1e7]">
                         <FaLinkedin />
 
                         <h2>Linkedin</h2>
                       </div>
                     </Link>
-                    <Link  href="https://www.facebook.com/ridoy.babu.3538">
+                    <Link href="https://www.facebook.com/?_rdc=2&_rdr">
                       <div className="flex items-center justify-center gap-2 border rounded px-2 py-1 hover:dark:text-[#4ca1e7] hover:dark:border-[#4ca1e7]">
                         <FaFacebook />
                         <h2>Facebook</h2>

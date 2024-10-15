@@ -8,7 +8,7 @@ import RightText from "../components/MainIcon/RightText";
 
 export const metadata: Metadata = {
   icons: {
-    icon: "../assets/icon/rabby.jpg",
+    icon: "./favicon.ico",
   },
   title: "Rabby",
   description:
