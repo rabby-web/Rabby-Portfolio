@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   icons: {
     icon: "./favicon.ico",
   },
-  title: "Rabby",
+  title: "Zulkar Naeem Rabby",
   description:
     "Full-stack web developer skilled in JavaScript, React, Next.js, Redux, MUI, ShadcnUi, AntDesign, Node.js, Express js, MongoDB, PostgreSQL, Redis, and many other tools.",
   authors: [{ name: "Zulkar Naeem Rabby" }],
