@@ -1,10 +1,9 @@
 import Image from "next/image";
 import img from "../../assets/icon/about.gif";
-import AboutCard from "./AboutCard";
 
 const AboutPage = () => {
   return (
-    <div className="max-w-7xl mx-auto py-10 lg:h-[65rem] md:h-[64rem] dark:bg-[#0E1628]">
+    <div className="max-w-7xl mx-auto py-10 lg:h-[70rem] md:h-[64rem] dark:bg-[#0E1628]">
       {/* about section */}
       <div>
         <div className="flex-1">
@@ -34,29 +33,35 @@ const AboutPage = () => {
                 </span>
                 <br />
                 <br />
-                <span className="font-normal text-gray-800 dark:text-gray-300 hover:dark:text-gray-300 hover:text-gray-600">
-                  {" "}
-                  I am a highly motivated and self-taught MERN Stack Developer
-                  with a passion for crafting dynamic and intuitive web
-                  applications. Specializing in frontend development using
-                  React.js and backend development with Node.js and Express.js,
-                  I bring a wealth of knowledge and hands-on experience to
-                  create seamless and engaging user experiences.{" "}
+                <span className="font-normal text-gray-800 dark:text-gray-200 hover:dark:text-gray-300 hover:text-gray-600">
+                  Full Stack Developer with a proven track record in designing,
+                  developing, and deploying robust web applications. Skilled in
+                  leveraging <span className="font-semibold">SQL</span> and{" "}
+                  <span className="font-semibold">NoSQL</span> databases to
+                  manage complex data structures and ensure optimal performance.
+                  Proficient in the <span className="font-semibold">MERN</span>{" "}
+                  stack (MongoDB, Express.js, React, Node.js), enabling
+                  efficient full-stack development and seamless integration.
+                  Possess strong <span className="font-semibold">DevOps</span>{" "}
+                  skills, including version control, CI/CD pipelines, cloud
+                  infrastructure management, and containerization (Docker,
+                  Kubernetes). Committed to delivering high-quality, scalable,
+                  and maintainable software solutions.
                 </span>
-                <br />
+                {/* <br />
                 <br />
                 <span className="font-normal text-gray-700 dark:text-gray-300 hover:dark:text-gray-300 hover:text-gray-600">
                   {" "}
                   I am a highly motivated and self-taught MERN Stack Developer
                   with a passion for crafting dynamic and intuitive web
                   applications.
-                </span>
+                </span> */}
               </p>
             </div>
           </div>
         </div>
       </div>
-      <AboutCard></AboutCard>
+      {/* <AboutCard></AboutCard> */}
     </div>
   );
 };
