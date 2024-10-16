@@ -1,5 +1,6 @@
 import Image from "next/image";
 import img from "../../assets/icon/about.gif";
+import AboutCards from "./AboutCards";
 
 const AboutPage = () => {
   return (
@@ -61,7 +62,7 @@ const AboutPage = () => {
           </div>
         </div>
       </div>
-      {/* <AboutCard></AboutCard> */}
+      <AboutCards></AboutCards>
     </div>
   );
 };
