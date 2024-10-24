@@ -53,9 +53,9 @@ const ContactPage = () => {
                   </button>
                 </form>
               </div>
-              <div className="divider lg:divider-horizontal dark:text-white">
-                OR
-              </div>
+
+              <div className="absolute border-opacity-20 border-gray-300 h-3/4 md:border  ml-1.5 md:ml-0 md:left-1/2"></div>
+
               <div
                 data-aos="fade-up"
                 data-aos-duration="1500"
