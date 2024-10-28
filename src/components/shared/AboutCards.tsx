@@ -1,5 +1,6 @@
 // import Link from "next/link";
 import React from "react";
+import { FaAnglesLeft, FaAnglesRight } from "react-icons/fa6";
 
 const AboutCards = () => {
   return (
@@ -151,53 +152,44 @@ const AboutCards = () => {
             <div className="h-[1px] w-full bg-gradient-to-r from-transparent via-[#39CCB5] to-violet-600"></div>
             <div className="h-[1px] w-full bg-gradient-to-r from-violet-600 to-transparent"></div>
           </div>
-          <div className="px-4 lg:px-8 py-5">
-            <div className="flex flex-row space-x-2">
-              <div className="h-3 w-3 rounded-full bg-red-400"></div>
+          <div className="px-2 lg:px-4 py-3 flex gap-2  items-center justify-center">
+            <FaAnglesLeft className="text-red-400" />
+            <h1 className="text-pink-400">Frontend</h1>
+            <FaAnglesRight className="text-orange-400" />
+            <div className="flex flex-row justify-center items-center gap-2 space-x-2">
+              {/* <div className="h-3 w-3 rounded-full bg-red-400"></div>
               <div className="h-3 w-3 rounded-full bg-orange-400"></div>
-              <div className="h-3 w-3 rounded-full bg-green-200"></div>
+              <div className="h-3 w-3 rounded-full bg-green-200"></div> */}
             </div>
           </div>
-          <div className="overflow-hidden border-t-[2px] border-indigo-900 px-4 lg:px-8 py-4 lg:py-8">
+          <div className="overflow-hidden border-t-[2px] border-indigo-900 px-2 lg:px-5 py-3 lg:py-5">
             <code className="font-mono text-xs md:text-sm lg:text-base">
-              <div className="blink">
-                <span className="mr-2 text-pink-500">const</span>
+              {/* <div className="blink">
                 <span className="mr-2 text-white">frontend</span>
                 <span className="mr-2 text-pink-500">=</span>
                 <span className="text-gray-400">{"{"}</span>
-              </div>
+              </div> */}
               <div>
-                <span className="ml-4 lg:ml-8 mr-2 text-white">name:</span>
-                <span className="text-gray-400">{`'`}</span>
-                <span className="text-amber-300">
-                  Creative frontend developer passionate about crafting
-                  intuitive user experiences and visually appealing designs.
+                <span className=" text-pink-400 font-semibold">
+                  Development:
                 </span>
-                <span className="text-gray-400">{`',`}</span>
+                <span className="text-green-400">{`'`}</span>
+                <span className="text-orange-400">
+                  A frontend developer creates engaging, user-friendly web
+                  interfaces, focusing on visual design, functionality, and
+                  seamless user experiences. They ensure websites are
+                  accessible, responsive, and optimized for diverse audiences
+                  and devices
+                </span>
+                <span className="text-green-400">{`'`}</span>
               </div>
-              <div className="ml-4 lg:ml-8 mr-2">
-                <span className=" text-white">skills:</span>
-                <span className="text-gray-400">{`['`}</span>
-                <span className="text-amber-300">React</span>
-                <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">NextJS</span>
-                <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">Redux</span>
-                <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">Tailwind </span>
-                <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">CSS</span>
-                <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">HTML</span>
-                <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">ANT Design</span>
-                <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">Aciternity</span>
-                <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">Bootstrap</span>
-                <span className="text-gray-400">{"'],"}</span>
+              <div className=" mt-1">
+                <i className="text-pink-400 font-semibold">skills:</i>
+                <i className="text-green-400">{`['`}</i>
+                <i className="text-amber-300">React, CSS, TS</i>
+                <i className="text-green-400">{"'],"}</i>
               </div>
-              <div>
+              {/* <div>
                 <span className="ml-4 lg:ml-8 mr-2 text-white">
                   hardWorker:
                 </span>
@@ -252,10 +244,10 @@ const AboutCards = () => {
               </div>
               <div>
                 <span className="ml-4 lg:ml-8 text-gray-400">{`};`}</span>
-              </div>
-              <div>
+              </div> */}
+              {/* <div>
                 <span className="text-gray-400">{`};`}</span>
-              </div>
+              </div> */}
             </code>
           </div>
         </div>
