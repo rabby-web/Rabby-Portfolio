@@ -5,7 +5,7 @@ import AboutCards from "./AboutCards";
 
 const AboutPage = () => {
   return (
-    <div className="max-w-7xl mx-auto py-10 lg:h-[86rem] md:h-[64rem] dark:bg-[#0E1628]">
+    <div className="max-w-7xl mx-auto py-10 lg:h-[72rem] md:h-[64rem] dark:bg-[#0E1628]">
       {/* about section */}
       <div>
         <div className="flex-1">
@@ -27,15 +27,13 @@ const AboutPage = () => {
 
             <div className="flex-1">
               <p className="sm:text-base md:text-lg font-medium max-w-5xl mx-auto  md:text-left p-3 text-dark-01 dark:text-white text-justify md:mt-4">
-                <span className="font-semibold text-xl ">
+                <span className="font-semibold text-xl text-pink-400">
                   Hi, I am{" "}
-                  <span className="text-[#4ca1e7] hover:text-[#3CD1B8]">
-                    Zulkar Naeem Rabby
-                  </span>
+                  <span className="text-orange-400">Zulkar Naeem Rabby</span>
                 </span>
                 <br />
                 <br />
-                <span className="font-normal text-gray-800 dark:text-gray-200 hover:dark:text-gray-300 hover:text-gray-600">
+                <span className="font-normal text-green-400 ">
                   Full Stack Developer with a proven track record in designing,
                   developing, and deploying robust web applications. Skilled in
                   leveraging <span className="font-semibold">SQL</span> and{" "}
@@ -64,7 +62,6 @@ const AboutPage = () => {
         </div>
       </div>
       <AboutCards></AboutCards>
-     
     </div>
   );
 };
