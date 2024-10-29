@@ -279,11 +279,13 @@ const AboutCards = () => {
                 </span>
                 <span className="text-green-400">{`'`}</span>
                 <span className="text-orange-400">
-                  A frontend developer creates engaging, user-friendly web
-                  interfaces, focusing on visual design, functionality, and
-                  seamless user experiences. They ensure websites are
-                  accessible, responsive, and optimized for diverse audiences
-                  and devices
+                  Driven backend developer with a passion for crafting scalable
+                  and efficient web solutions. Enjoys creating robust
+                  server-side architectures to support dynamic and responsive
+                  applications. Committed to continuous learning and staying
+                  updated on industry trends, with a focus on building systems
+                  that enhance user experiences and optimize application
+                  performance.
                 </span>
                 <span className="text-green-400">{`'`}</span>
               </div>
