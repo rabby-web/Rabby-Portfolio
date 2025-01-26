@@ -33,21 +33,11 @@ const AboutPage = () => {
                 </span>
                 <br />
                 <br />
-                <span className="font-normal text-green-400 ">
+                <h1>
                   Full Stack Developer with a proven track record in designing,
                   developing, and deploying robust web applications. Skilled in
-                  leveraging <span className="font-semibold">SQL</span> and{" "}
-                  <span className="font-semibold">NoSQL</span> databases to
-                  manage complex data structures and ensure optimal performance.
-                  Proficient in the <span className="font-semibold">MERN</span>{" "}
-                  stack (MongoDB, Express.js, React, Node.js), enabling
-                  efficient full-stack development and seamless integration.
-                  Possess strong <span className="font-semibold">DevOps</span>{" "}
-                  skills, including version control, CI/CD pipelines, cloud
-                  infrastructure management, and containerization (Docker,
-                  Kubernetes). Committed to delivering high-quality, scalable,
-                  and maintainable software solutions.
-                </span>
+                  leveraging
+                </h1>
                 {/* <br />
                 <br />
                 <span className="font-normal text-gray-700 dark:text-gray-300 hover:dark:text-gray-300 hover:text-gray-600">
